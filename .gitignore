@@ -1,0 +1,24 @@
+# Credentials
+config/.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs (generated files)
+outputs/reports/*.pdf
+outputs/reports/*.docx
+outputs/reports/*.xlsx
