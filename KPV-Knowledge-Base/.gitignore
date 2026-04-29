@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# Large binary files (GitHub 100MB limit)
+*.zip
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xls

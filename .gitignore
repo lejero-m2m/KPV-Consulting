@@ -22,3 +22,13 @@ Thumbs.db
 outputs/reports/*.pdf
 outputs/reports/*.docx
 outputs/reports/*.xlsx
+
+# Large binary files (GitHub 100MB limit)
+*.zip
+
+# Binary document formats (track as reference only, not in git)
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xls
