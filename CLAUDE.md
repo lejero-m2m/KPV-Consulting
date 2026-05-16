@@ -3,7 +3,7 @@
 **Client:** Karaka Pines Village (KPV)  
 **Role:** Kyle Dickinson — Director of Development  
 **Workspace owner:** Lejero Consulting  
-**Last updated:** April 2026
+**Last updated:** 2026-05-14
 
 ---
 
@@ -22,6 +22,17 @@ This workspace covers all work Kyle does in his Director of Development capacity
 - Lejero's Smartsheet account or credentials
 - Other Lejero clients (Quinovic, Urban Homes, etc.)
 - Shared PostgreSQL database schema changes
+
+---
+
+## KPV Systems Project — full context
+
+For any work involving Smartsheet design, dashboards, reports, the documentation suite (Flow PNG + Word manual), the village lifecycle, naming conventions, brand palettes, or platform integration (Teams / SharePoint / Zoho), read the **`smartsheet-business-advisor` skill** at `agents/smartsheet-business-advisor/` — it carries the authoritative project context. Start with:
+
+- **`agents/smartsheet-business-advisor/references/kpv-conventions.md`** — village register (100–107), lifecycle phases, folder structure, naming conventions, sheet name intent, brand palette options (systems vs marketing), documentation suite pattern, KPV principles, Teams channel mapping, KPV-specific advisory checklist
+- **`agents/smartsheet-business-advisor/SKILL.md`** — the agent's operating instructions and pointers to the other reference files (Microsoft 365 integration, report production, Smartsheet capabilities and limits, generic Business-plan guide and templates)
+
+The skill is the **single source of truth** for KPV systems-project conventions. This CLAUDE.md stays short and points at the skill; do not duplicate project rules here. When the live setup diverges from what the skill describes, Kyle's latest instruction wins — and the skill should be updated to reflect the new direction.
 
 ---
 
@@ -91,6 +102,8 @@ Read these at the start of any session:
 
 | File | Purpose |
 |------|---------|
+| `agents/smartsheet-business-advisor/references/kpv-conventions.md` | **Authoritative KPV systems-project context** — village register, lifecycle, naming, sheets, brand palettes, documentation suite, principles |
+| `agents/smartsheet-business-advisor/SKILL.md` | Smartsheet advisor operating instructions + pointers to MS 365 integration, report production, capabilities-and-limits references |
 | `context/kpv-overview.md` | Organisation background, villages, team |
 | `context/role-brief.md` | Kyle's role, scope, authority, reporting |
 | `context/current-priorities.md` | What Kyle is focused on right now |

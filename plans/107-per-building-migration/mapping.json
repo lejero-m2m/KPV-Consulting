@@ -1,0 +1,1527 @@
+{
+  "_meta": {
+    "village": "107 Papamoa",
+    "brief": "smartsheet/input/107-per-building-architecture-migration.md",
+    "api_host": "https://api.smartsheet.com/2.0",
+    "started": "2026-05-16",
+    "status": "API phases COMPLETE (1,2a,2b,2c,3 all verified PASS). Phases 4-5 = Kyle UI work; checklist at phase_4_5_UI_checklist.md.",
+    "budget_building_reference_col_id": 7028778852454276
+  },
+  "sheet_ids": {
+    "budget": 5631895457976196,
+    "construction_programme": 5063906232848260,
+    "construction_register": 2635310868418436,
+    "unit_register": 5289542339743620
+  },
+  "folders": {
+    "civil_and_construction": 2549523147974532,
+    "archive": 6798331356702596
+  },
+  "building_reference_mapping": [
+    {
+      "budget_row_id": 1672983104388996,
+      "line_item": "103,101",
+      "units": "103, 101",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 101,
+      "building_reference": "S1-B01",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 1110033150967684,
+      "line_item": "102,104",
+      "units": "102, 104",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 102,
+      "building_reference": "S1-B02",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 6176582731759492,
+      "line_item": "105,107",
+      "units": "105, 107",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 105,
+      "building_reference": "S1-B03",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 5613632778338180,
+      "line_item": "106,108",
+      "units": "106, 108",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 106,
+      "building_reference": "S1-B04",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 3924782918074244,
+      "line_item": "109,111",
+      "units": "109, 111",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 109,
+      "building_reference": "S1-B05",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 3361832964652932,
+      "line_item": "112",
+      "units": "112",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 112,
+      "building_reference": "S1-B06",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 8428382545444740,
+      "line_item": "115,113",
+      "units": "115, 113",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 113,
+      "building_reference": "S1-B07",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 6739532685180804,
+      "line_item": "116,118",
+      "units": "116, 118",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 116,
+      "building_reference": "S1-B08",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 7865432592023428,
+      "line_item": "117,119",
+      "units": "117, 119",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 117,
+      "building_reference": "S1-B09",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 2235933057810308,
+      "line_item": "121,123",
+      "units": "121, 123",
+      "budget_section": "Stage 1",
+      "register_stage": "Stage 1",
+      "register_stages_all": [
+        "Stage 1"
+      ],
+      "lowest_unit": 121,
+      "building_reference": "S1-B10",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 4738485947137924,
+      "line_item": "122,124",
+      "units": "122, 124",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2A",
+      "register_stages_all": [
+        "Stage 2A"
+      ],
+      "lowest_unit": 122,
+      "building_reference": "S2A-B01",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 2486686133452676,
+      "line_item": "125,127",
+      "units": "125, 127",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2A",
+      "register_stages_all": [
+        "Stage 2A"
+      ],
+      "lowest_unit": 125,
+      "building_reference": "S2A-B02",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 6990285760823172,
+      "line_item": "126,128",
+      "units": "126, 128",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2B",
+      "register_stages_all": [
+        "Stage 2B"
+      ],
+      "lowest_unit": 126,
+      "building_reference": "S2B-B01",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 1360786226610052,
+      "line_item": "129,131",
+      "units": "129, 131",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2B",
+      "register_stages_all": [
+        "Stage 2B"
+      ],
+      "lowest_unit": 129,
+      "building_reference": "S2B-B02",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 3612586040295300,
+      "line_item": "132,134",
+      "units": "132, 134",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2C",
+      "register_stages_all": [
+        "Stage 2C"
+      ],
+      "lowest_unit": 132,
+      "building_reference": "S2C-B01",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 5864385853980548,
+      "line_item": "133,135",
+      "units": "133, 135",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2C",
+      "register_stages_all": [
+        "Stage 2C"
+      ],
+      "lowest_unit": 133,
+      "building_reference": "S2C-B02",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 797836273188740,
+      "line_item": "136,138",
+      "units": "136, 138",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2D",
+      "register_stages_all": [
+        "Stage 2D"
+      ],
+      "lowest_unit": 136,
+      "building_reference": "S2D-B01",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 8116185667665796,
+      "line_item": "137,139",
+      "units": "137, 139",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2D",
+      "register_stages_all": [
+        "Stage 2D"
+      ],
+      "lowest_unit": 137,
+      "building_reference": "S2D-B02",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 5301435900559236,
+      "line_item": "141,143",
+      "units": "141, 143",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2D",
+      "register_stages_all": [
+        "Stage 2D"
+      ],
+      "lowest_unit": 141,
+      "building_reference": "S2D-B03",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 3049636086873988,
+      "line_item": "144",
+      "units": "144",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2E",
+      "register_stages_all": [
+        "Stage 2E"
+      ],
+      "lowest_unit": 144,
+      "building_reference": "S2E-B01",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 7553235714244484,
+      "line_item": "147,145",
+      "units": "147, 145",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2E",
+      "register_stages_all": [
+        "Stage 2E"
+      ],
+      "lowest_unit": 145,
+      "building_reference": "S2E-B02",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 1923736180031364,
+      "line_item": "149,151",
+      "units": "149, 151",
+      "budget_section": "Stage 2",
+      "register_stage": "Stage 2E",
+      "register_stages_all": [
+        "Stage 2E"
+      ],
+      "lowest_unit": 149,
+      "building_reference": "S2E-B03",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 5374586709802884,
+      "line_item": "153,155",
+      "units": "153, 155",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 153,
+      "building_reference": "S3-B01",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 870987082432388,
+      "line_item": "166,164",
+      "units": "166, 164",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 164,
+      "building_reference": "S3-B02",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 8189336476909444,
+      "line_item": "172,170",
+      "units": "172, 170",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 170,
+      "building_reference": "S3-B03",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 3685736849538948,
+      "line_item": "174",
+      "units": "174",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 174,
+      "building_reference": "S3-B04",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 3122786896117636,
+      "line_item": "201,203",
+      "units": "201, 203",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 201,
+      "building_reference": "S3-B06",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 6500486616645508,
+      "line_item": "202",
+      "units": "202",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 202,
+      "building_reference": "S3-B07",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 1996886989275012,
+      "line_item": "206,204",
+      "units": "206, 204",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 204,
+      "building_reference": "S3-B08",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 7626386523488132,
+      "line_item": "205,207",
+      "units": "205, 207",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 205,
+      "building_reference": "S3-B09",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 8752286430330756,
+      "line_item": "303,301",
+      "units": "303, 301",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 301,
+      "building_reference": "S3-B10",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 167299640655748,
+      "line_item": "302",
+      "units": "302",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 302,
+      "building_reference": "S3-B11",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 4670899268026244,
+      "line_item": "304,306",
+      "units": "304, 306",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 304,
+      "building_reference": "S3-B12",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 4248686802960260,
+      "line_item": "305",
+      "units": "305",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 305,
+      "building_reference": "S3-B13",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 2419099454340996,
+      "line_item": "401,403,405,407,409",
+      "units": "401, 403, 405, 407, 409",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 401,
+      "building_reference": "S3-B14",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 6922699081711492,
+      "line_item": "404,402",
+      "units": "404, 402",
+      "budget_section": "Stage 3",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 402,
+      "building_reference": "S3-B15",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 6763325730258820,
+      "line_item": "178,176",
+      "units": "178, 176",
+      "budget_section": "Stage 4 and 5",
+      "register_stage": "Stage 3",
+      "register_stages_all": [
+        "Stage 3"
+      ],
+      "lowest_unit": 176,
+      "building_reference": "S3-B05",
+      "conflict": true
+    },
+    {
+      "budget_row_id": 2259726102888324,
+      "line_item": "180/1,180/2,180/3,180/4,180/5",
+      "units": "180/1, 180/2, 180/3, 180/4, 180/5",
+      "budget_section": "Stage 4 and 5",
+      "register_stage": "Stage 4",
+      "register_stages_all": [
+        "Stage 4"
+      ],
+      "lowest_unit": 180,
+      "building_reference": "S4-B01",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 9001931404410756,
+      "line_item": "183,181",
+      "units": "183, 181",
+      "budget_section": "Stage 4 and 5",
+      "register_stage": "Stage 4",
+      "register_stages_all": [
+        "Stage 4"
+      ],
+      "lowest_unit": 181,
+      "building_reference": "S4-B02",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 4498331777040260,
+      "line_item": "182/1,182/2,182/3,182/4,182/5",
+      "units": "182/1, 182/2, 182/3, 182/4, 182/5",
+      "budget_section": "Stage 4 and 5",
+      "register_stage": "Stage 4",
+      "register_stages_all": [
+        "Stage 4"
+      ],
+      "lowest_unit": 182,
+      "building_reference": "S4-B03",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 6750131590725508,
+      "line_item": "194,192,190,188,186,184",
+      "units": "194, 192, 190, 188, 186, 184",
+      "budget_section": "Stage 4 and 5",
+      "register_stage": "Stage 4",
+      "register_stages_all": [
+        "Stage 4"
+      ],
+      "lowest_unit": 184,
+      "building_reference": "S4-B04",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 2246531963355012,
+      "line_item": "198,196",
+      "units": "198, 196",
+      "budget_section": "Stage 4 and 5",
+      "register_stage": "Stage 4",
+      "register_stages_all": [
+        "Stage 4"
+      ],
+      "lowest_unit": 196,
+      "building_reference": "S4-B05",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 4511525916573572,
+      "line_item": "503,501",
+      "units": "503, 501",
+      "budget_section": "Stage 4 and 5",
+      "register_stage": "Stage 4",
+      "register_stages_all": [
+        "Stage 4"
+      ],
+      "lowest_unit": 501,
+      "building_reference": "S4-B06",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 7926289203076,
+      "line_item": "502,504",
+      "units": "502, 504",
+      "budget_section": "Stage 4 and 5",
+      "register_stage": "Stage 4",
+      "register_stages_all": [
+        "Stage 4"
+      ],
+      "lowest_unit": 502,
+      "building_reference": "S4-B07",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 5368355785998212,
+      "line_item": "601,603,605,607,609",
+      "units": "601, 603, 605, 607, 609",
+      "budget_section": "Stage 5",
+      "register_stage": "Stage 5",
+      "register_stages_all": [
+        "Stage 5"
+      ],
+      "lowest_unit": 601,
+      "building_reference": "S5-B01",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 8183105553104772,
+      "line_item": "602",
+      "units": "602",
+      "budget_section": "Stage 5",
+      "register_stage": "Stage 5",
+      "register_stages_all": [
+        "Stage 5"
+      ],
+      "lowest_unit": 602,
+      "building_reference": "S5-B02",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 864756158627716,
+      "line_item": "604,606",
+      "units": "604, 606",
+      "budget_section": "Stage 5",
+      "register_stage": "Stage 5",
+      "register_stages_all": [
+        "Stage 5"
+      ],
+      "lowest_unit": 604,
+      "building_reference": "S5-B03",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 3116555972312964,
+      "line_item": "701",
+      "units": "701",
+      "budget_section": "Stage 5",
+      "register_stage": "Stage 5",
+      "register_stages_all": [
+        "Stage 5"
+      ],
+      "lowest_unit": 701,
+      "building_reference": "S5-B04",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 1990656065470340,
+      "line_item": "702,704,706,708,710",
+      "units": "702, 704, 706, 708, 710",
+      "budget_section": "Stage 5",
+      "register_stage": "Stage 5",
+      "register_stages_all": [
+        "Stage 5"
+      ],
+      "lowest_unit": 702,
+      "building_reference": "S5-B05",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 7620155599683460,
+      "line_item": "703,705",
+      "units": "703, 705",
+      "budget_section": "Stage 5",
+      "register_stage": "Stage 5",
+      "register_stages_all": [
+        "Stage 5"
+      ],
+      "lowest_unit": 703,
+      "building_reference": "S5-B06",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 6494255692840836,
+      "line_item": "801",
+      "units": "801",
+      "budget_section": "Stage 5",
+      "register_stage": "Stage 5",
+      "register_stages_all": [
+        "Stage 5"
+      ],
+      "lowest_unit": 801,
+      "building_reference": "S5-B07",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 4242455879155588,
+      "line_item": "803,805",
+      "units": "803, 805",
+      "budget_section": "Stage 5",
+      "register_stage": "Stage 5",
+      "register_stages_all": [
+        "Stage 5"
+      ],
+      "lowest_unit": 803,
+      "building_reference": "S5-B08",
+      "conflict": false
+    },
+    {
+      "budget_row_id": 8802769610145668,
+      "line_item": "Pavilion",
+      "units": null,
+      "budget_section": "Pavilion",
+      "register_stage": "Pavilion",
+      "lowest_unit": null,
+      "building_reference": "PAV-B01",
+      "conflict": false
+    }
+  ],
+  "register_contract_block_old_to_new": [
+    {
+      "row_id": 1342268103917444,
+      "unit": "101",
+      "old": "101-103",
+      "new": "S1-B01"
+    },
+    {
+      "row_id": 5845867731287940,
+      "unit": "102",
+      "old": "102-104",
+      "new": "S1-B02"
+    },
+    {
+      "row_id": 3594067917602692,
+      "unit": "103",
+      "old": "101-103",
+      "new": "S1-B01"
+    },
+    {
+      "row_id": 8097667544973188,
+      "unit": "104",
+      "old": "102-104",
+      "new": "S1-B02"
+    },
+    {
+      "row_id": 779318150496132,
+      "unit": "105",
+      "old": "105-107",
+      "new": "S1-B03"
+    },
+    {
+      "row_id": 5282917777866628,
+      "unit": "106",
+      "old": "106-108",
+      "new": "S1-B04"
+    },
+    {
+      "row_id": 3031117964181380,
+      "unit": "107",
+      "old": "105-107",
+      "new": "S1-B03"
+    },
+    {
+      "row_id": 7534717591551876,
+      "unit": "108",
+      "old": "106-108",
+      "new": "S1-B04"
+    },
+    {
+      "row_id": 1905218057338756,
+      "unit": "109",
+      "old": "109-111",
+      "new": "S1-B05"
+    },
+    {
+      "row_id": 6408817684709252,
+      "unit": "111",
+      "old": "109-111",
+      "new": "S1-B05"
+    },
+    {
+      "row_id": 4157017871024004,
+      "unit": "112",
+      "old": "112",
+      "new": "S1-B06"
+    },
+    {
+      "row_id": 8660617498394500,
+      "unit": "113",
+      "old": "113-115",
+      "new": "S1-B07"
+    },
+    {
+      "row_id": 497843173785476,
+      "unit": "115",
+      "old": "113-115",
+      "new": "S1-B07"
+    },
+    {
+      "row_id": 5001442801155972,
+      "unit": "116",
+      "old": "116-118",
+      "new": "S1-B08"
+    },
+    {
+      "row_id": 2749642987470724,
+      "unit": "117",
+      "old": null,
+      "new": "S1-B09"
+    },
+    {
+      "row_id": 7253242614841220,
+      "unit": "118",
+      "old": "116-118",
+      "new": "S1-B08"
+    },
+    {
+      "row_id": 1623743080628100,
+      "unit": "119",
+      "old": null,
+      "new": "S1-B09"
+    },
+    {
+      "row_id": 6127342707998596,
+      "unit": "121",
+      "old": "121-123",
+      "new": "S1-B10"
+    },
+    {
+      "row_id": 3875542894313348,
+      "unit": "123",
+      "old": "121-123",
+      "new": "S1-B10"
+    },
+    {
+      "row_id": 5564392754577284,
+      "unit": "122",
+      "old": null,
+      "new": "S2A-B01"
+    },
+    {
+      "row_id": 3312592940892036,
+      "unit": "124",
+      "old": null,
+      "new": "S2A-B01"
+    },
+    {
+      "row_id": 7816192568262532,
+      "unit": "125",
+      "old": null,
+      "new": "S2A-B02"
+    },
+    {
+      "row_id": 2186693034049412,
+      "unit": "127",
+      "old": null,
+      "new": "S2A-B02"
+    },
+    {
+      "row_id": 4438492847734660,
+      "unit": "126",
+      "old": null,
+      "new": "S2B-B01"
+    },
+    {
+      "row_id": 8942092475105156,
+      "unit": "128",
+      "old": null,
+      "new": "S2B-B01"
+    },
+    {
+      "row_id": 40446336630660,
+      "unit": "129",
+      "old": null,
+      "new": "S2B-B02"
+    },
+    {
+      "row_id": 4544045964001156,
+      "unit": "131",
+      "old": null,
+      "new": "S2B-B02"
+    },
+    {
+      "row_id": 6795845777686404,
+      "unit": "132",
+      "old": null,
+      "new": "S2C-B01"
+    },
+    {
+      "row_id": 1166346243473284,
+      "unit": "133",
+      "old": null,
+      "new": "S2C-B02"
+    },
+    {
+      "row_id": 5669945870843780,
+      "unit": "134",
+      "old": null,
+      "new": "S2C-B01"
+    },
+    {
+      "row_id": 3418146057158532,
+      "unit": "135",
+      "old": null,
+      "new": "S2C-B02"
+    },
+    {
+      "row_id": 603396290051972,
+      "unit": "136",
+      "old": null,
+      "new": "S2D-B01"
+    },
+    {
+      "row_id": 5106995917422468,
+      "unit": "137",
+      "old": null,
+      "new": "S2D-B02"
+    },
+    {
+      "row_id": 2855196103737220,
+      "unit": "138",
+      "old": null,
+      "new": "S2D-B01"
+    },
+    {
+      "row_id": 7358795731107716,
+      "unit": "139",
+      "old": null,
+      "new": "S2D-B02"
+    },
+    {
+      "row_id": 1729296196894596,
+      "unit": "143",
+      "old": null,
+      "new": "S2D-B03"
+    },
+    {
+      "row_id": 6232895824265092,
+      "unit": "141",
+      "old": null,
+      "new": "S2D-B03"
+    },
+    {
+      "row_id": 8484695637950340,
+      "unit": "144",
+      "old": null,
+      "new": "S2E-B01"
+    },
+    {
+      "row_id": 321921313341316,
+      "unit": "145",
+      "old": null,
+      "new": "S2E-B02"
+    },
+    {
+      "row_id": 4825520940711812,
+      "unit": "147",
+      "old": null,
+      "new": "S2E-B02"
+    },
+    {
+      "row_id": 2573721127026564,
+      "unit": "149",
+      "old": null,
+      "new": "S2E-B03"
+    },
+    {
+      "row_id": 7077320754397060,
+      "unit": "151",
+      "old": null,
+      "new": "S2E-B03"
+    },
+    {
+      "row_id": 3699621033869188,
+      "unit": "153",
+      "old": null,
+      "new": "S3-B01"
+    },
+    {
+      "row_id": 8203220661239684,
+      "unit": "155",
+      "old": null,
+      "new": "S3-B01"
+    },
+    {
+      "row_id": 884871266762628,
+      "unit": "164",
+      "old": null,
+      "new": "S3-B02"
+    },
+    {
+      "row_id": 5388470894133124,
+      "unit": "166",
+      "old": null,
+      "new": "S3-B02"
+    },
+    {
+      "row_id": 3136671080447876,
+      "unit": "170",
+      "old": null,
+      "new": "S3-B03"
+    },
+    {
+      "row_id": 7640270707818372,
+      "unit": "172",
+      "old": null,
+      "new": "S3-B03"
+    },
+    {
+      "row_id": 2010771173605252,
+      "unit": "174",
+      "old": null,
+      "new": "S3-B04"
+    },
+    {
+      "row_id": 6514370800975748,
+      "unit": "176",
+      "old": null,
+      "new": "S3-B05"
+    },
+    {
+      "row_id": 4262570987290500,
+      "unit": "178",
+      "old": null,
+      "new": "S3-B05"
+    },
+    {
+      "row_id": 8766170614660996,
+      "unit": "201",
+      "old": null,
+      "new": "S3-B06"
+    },
+    {
+      "row_id": 181183824985988,
+      "unit": "202",
+      "old": null,
+      "new": "S3-B07"
+    },
+    {
+      "row_id": 4684783452356484,
+      "unit": "203",
+      "old": null,
+      "new": "S3-B06"
+    },
+    {
+      "row_id": 2432983638671236,
+      "unit": "204",
+      "old": null,
+      "new": "S3-B08"
+    },
+    {
+      "row_id": 6936583266041732,
+      "unit": "205",
+      "old": null,
+      "new": "S3-B09"
+    },
+    {
+      "row_id": 1307083731828612,
+      "unit": "206",
+      "old": null,
+      "new": "S3-B08"
+    },
+    {
+      "row_id": 5810683359199108,
+      "unit": "207",
+      "old": null,
+      "new": "S3-B09"
+    },
+    {
+      "row_id": 3558883545513860,
+      "unit": "301",
+      "old": null,
+      "new": "S3-B10"
+    },
+    {
+      "row_id": 8062483172884356,
+      "unit": "303",
+      "old": null,
+      "new": "S3-B10"
+    },
+    {
+      "row_id": 744133778407300,
+      "unit": "305",
+      "old": null,
+      "new": "S3-B13"
+    },
+    {
+      "row_id": 5247733405777796,
+      "unit": "306",
+      "old": null,
+      "new": "S3-B12"
+    },
+    {
+      "row_id": 2995933592092548,
+      "unit": "304",
+      "old": null,
+      "new": "S3-B12"
+    },
+    {
+      "row_id": 7499533219463044,
+      "unit": "302",
+      "old": null,
+      "new": "S3-B11"
+    },
+    {
+      "row_id": 1870033685249924,
+      "unit": "404",
+      "old": null,
+      "new": "S3-B15"
+    },
+    {
+      "row_id": 6373633312620420,
+      "unit": "402",
+      "old": null,
+      "new": "S3-B15"
+    },
+    {
+      "row_id": 4121833498935172,
+      "unit": "401",
+      "old": null,
+      "new": "S3-B14"
+    },
+    {
+      "row_id": 8625433126305668,
+      "unit": "403",
+      "old": null,
+      "new": "S3-B14"
+    },
+    {
+      "row_id": 462658801696644,
+      "unit": "405",
+      "old": null,
+      "new": "S3-B14"
+    },
+    {
+      "row_id": 4966258429067140,
+      "unit": "407",
+      "old": null,
+      "new": "S3-B14"
+    },
+    {
+      "row_id": 2714458615381892,
+      "unit": "409",
+      "old": null,
+      "new": "S3-B14"
+    },
+    {
+      "row_id": 1588558708539268,
+      "unit": "181",
+      "old": null,
+      "new": "S4-B02"
+    },
+    {
+      "row_id": 6092158335909764,
+      "unit": "183",
+      "old": null,
+      "new": "S4-B02"
+    },
+    {
+      "row_id": 3840358522224516,
+      "unit": "184",
+      "old": null,
+      "new": "S4-B04"
+    },
+    {
+      "row_id": 8343958149595012,
+      "unit": "186",
+      "old": null,
+      "new": "S4-B04"
+    },
+    {
+      "row_id": 1025608755117956,
+      "unit": "188",
+      "old": null,
+      "new": "S4-B04"
+    },
+    {
+      "row_id": 5529208382488452,
+      "unit": "190",
+      "old": null,
+      "new": "S4-B04"
+    },
+    {
+      "row_id": 3277408568803204,
+      "unit": "192",
+      "old": null,
+      "new": "S4-B04"
+    },
+    {
+      "row_id": 7781008196173700,
+      "unit": "194",
+      "old": null,
+      "new": "S4-B04"
+    },
+    {
+      "row_id": 2151508661960580,
+      "unit": "196",
+      "old": null,
+      "new": "S4-B05"
+    },
+    {
+      "row_id": 6655108289331076,
+      "unit": "198",
+      "old": null,
+      "new": "S4-B05"
+    },
+    {
+      "row_id": 4403308475645828,
+      "unit": "501",
+      "old": null,
+      "new": "S4-B06"
+    },
+    {
+      "row_id": 8906908103016324,
+      "unit": "502",
+      "old": null,
+      "new": "S4-B07"
+    },
+    {
+      "row_id": 110815080808324,
+      "unit": "503",
+      "old": null,
+      "new": "S4-B06"
+    },
+    {
+      "row_id": 4614414708178820,
+      "unit": "504",
+      "old": null,
+      "new": "S4-B07"
+    },
+    {
+      "row_id": 2362614894493572,
+      "unit": "180",
+      "old": null,
+      "new": "S4-B01"
+    },
+    {
+      "row_id": 6866214521864068,
+      "unit": "180-1",
+      "old": null,
+      "new": "S4-B01"
+    },
+    {
+      "row_id": 1236714987650948,
+      "unit": "180-2",
+      "old": null,
+      "new": "S4-B01"
+    },
+    {
+      "row_id": 5740314615021444,
+      "unit": "180-3",
+      "old": null,
+      "new": "S4-B01"
+    },
+    {
+      "row_id": 3488514801336196,
+      "unit": "180-4",
+      "old": null,
+      "new": "S4-B01"
+    },
+    {
+      "row_id": 7992114428706692,
+      "unit": "180-5",
+      "old": null,
+      "new": "S4-B01"
+    },
+    {
+      "row_id": 673765034229636,
+      "unit": "182",
+      "old": null,
+      "new": "S4-B03"
+    },
+    {
+      "row_id": 5177364661600132,
+      "unit": "182-1",
+      "old": null,
+      "new": "S4-B03"
+    },
+    {
+      "row_id": 2925564847914884,
+      "unit": "182-2",
+      "old": null,
+      "new": "S4-B03"
+    },
+    {
+      "row_id": 7429164475285380,
+      "unit": "182-3",
+      "old": null,
+      "new": "S4-B03"
+    },
+    {
+      "row_id": 1799664941072260,
+      "unit": "182-4",
+      "old": null,
+      "new": "S4-B03"
+    },
+    {
+      "row_id": 6303264568442756,
+      "unit": "182-5",
+      "old": null,
+      "new": "S4-B03"
+    },
+    {
+      "row_id": 8555064382128004,
+      "unit": "601",
+      "old": null,
+      "new": "S5-B01"
+    },
+    {
+      "row_id": 392290057518980,
+      "unit": "602",
+      "old": null,
+      "new": "S5-B02"
+    },
+    {
+      "row_id": 4895889684889476,
+      "unit": "603",
+      "old": null,
+      "new": "S5-B01"
+    },
+    {
+      "row_id": 2644089871204228,
+      "unit": "604",
+      "old": null,
+      "new": "S5-B03"
+    },
+    {
+      "row_id": 7147689498574724,
+      "unit": "605",
+      "old": null,
+      "new": "S5-B01"
+    },
+    {
+      "row_id": 1518189964361604,
+      "unit": "606",
+      "old": null,
+      "new": "S5-B03"
+    },
+    {
+      "row_id": 6021789591732100,
+      "unit": "607",
+      "old": null,
+      "new": "S5-B01"
+    },
+    {
+      "row_id": 3769989778046852,
+      "unit": "609",
+      "old": null,
+      "new": "S5-B01"
+    },
+    {
+      "row_id": 8273589405417348,
+      "unit": "701",
+      "old": null,
+      "new": "S5-B04"
+    },
+    {
+      "row_id": 955240010940292,
+      "unit": "702",
+      "old": null,
+      "new": "S5-B05"
+    },
+    {
+      "row_id": 5458839638310788,
+      "unit": "703",
+      "old": null,
+      "new": "S5-B06"
+    },
+    {
+      "row_id": 3207039824625540,
+      "unit": "704",
+      "old": null,
+      "new": "S5-B05"
+    },
+    {
+      "row_id": 7710639451996036,
+      "unit": "705",
+      "old": null,
+      "new": "S5-B06"
+    },
+    {
+      "row_id": 2081139917782916,
+      "unit": "706",
+      "old": null,
+      "new": "S5-B05"
+    },
+    {
+      "row_id": 6584739545153412,
+      "unit": "708",
+      "old": null,
+      "new": "S5-B05"
+    },
+    {
+      "row_id": 4332939731468164,
+      "unit": "710",
+      "old": null,
+      "new": "S5-B05"
+    },
+    {
+      "row_id": 8836539358838660,
+      "unit": "801",
+      "old": null,
+      "new": "S5-B07"
+    },
+    {
+      "row_id": 251552569163652,
+      "unit": "803",
+      "old": null,
+      "new": "S5-B08"
+    },
+    {
+      "row_id": 4755152196534148,
+      "unit": "805",
+      "old": null,
+      "new": "S5-B08"
+    }
+  ],
+  "sales_status_value_mapping": [],
+  "anomalies": [
+    "122,124: Budget section 'Stage 2' but Register stage 'Stage 2A'  <-- CONFLICT",
+    "125,127: Budget section 'Stage 2' but Register stage 'Stage 2A'  <-- CONFLICT",
+    "126,128: Budget section 'Stage 2' but Register stage 'Stage 2B'  <-- CONFLICT",
+    "129,131: Budget section 'Stage 2' but Register stage 'Stage 2B'  <-- CONFLICT",
+    "133,135: Budget section 'Stage 2' but Register stage 'Stage 2C'  <-- CONFLICT",
+    "132,134: Budget section 'Stage 2' but Register stage 'Stage 2C'  <-- CONFLICT",
+    "137,139: Budget section 'Stage 2' but Register stage 'Stage 2D'  <-- CONFLICT",
+    "136,138: Budget section 'Stage 2' but Register stage 'Stage 2D'  <-- CONFLICT",
+    "141,143: Budget section 'Stage 2' but Register stage 'Stage 2D'  <-- CONFLICT",
+    "144: Budget section 'Stage 2' but Register stage 'Stage 2E'  <-- CONFLICT",
+    "147,145: Budget section 'Stage 2' but Register stage 'Stage 2E'  <-- CONFLICT",
+    "149,151: Budget section 'Stage 2' but Register stage 'Stage 2E'  <-- CONFLICT",
+    "178,176: Budget section 'Stage 4 and 5' but Register stage 'Stage 3'  <-- CONFLICT"
+  ],
+  "new_programme": {
+    "sheet_id": 4820480841174916,
+    "permalink": "https://app.smartsheet.com/sheets/9wjXRCF8JcFxjmJ7hwJf7RPqVWRQGpcG3xfJq6Q1",
+    "dependencies_enabled": false,
+    "columns": {
+      "Building Reference": 7746806653161348,
+      "Building Name": 2117307118948228,
+      "Stage": 6620906746318724,
+      "Units": 4369106932633476,
+      "Unit Count": 8872706560003972,
+      "Typology": 76613537795972,
+      "Construction Status": 4580213165166468,
+      "Build Partner": 2328413351481220,
+      "Building Consent Numbers": 6832012978851716,
+      "Contract Package": 1202513444638596,
+      "Contract Price (incl GST)": 5706113072009092,
+      "Variations (incl GST)": 3454313258323844,
+      "% Complete": 7957912885694340,
+      "RAG": 639563491217284,
+      "Start Date": 5143163118587780,
+      "End Date": 2891363304902532,
+      "Notes/Latest": 7394962932273028,
+      "Budget Approved": 1765463398059908,
+      "Expected Total Cost": 6269063025430404,
+      "Expected Variance": 4017263211745156
+    },
+    "pending_post_dependencies": [
+      "Add Duration (DURATION, GANTT_DURATION)",
+      "Add Predecessors (PREDECESSOR, GANTT_PREDECESSOR)",
+      "Tag Start/End as GANTT_START_DATE/GANTT_END_DATE",
+      "Tag % Complete GANTT_PERCENT_COMPLETE",
+      "Set RAG symbol RYGG"
+    ],
+    "building_row_ids": {
+      "S1-B01": 1954388589870980,
+      "S1-B02": 6457988217241476,
+      "S1-B03": 4206188403556228,
+      "S1-B04": 8709788030926724,
+      "S1-B05": 547013706317700,
+      "S1-B06": 5050613333688196,
+      "S1-B07": 2798813520002948,
+      "S1-B08": 7302413147373444,
+      "S1-B09": 1672913613160324,
+      "S1-B10": 6176513240530820,
+      "S2A-B01": 3924713426845572,
+      "S2A-B02": 8428313054216068,
+      "S2B-B01": 1109963659739012,
+      "S2B-B02": 5613563287109508,
+      "S2C-B01": 3361763473424260,
+      "S2C-B02": 7865363100794756,
+      "S2D-B01": 2235863566581636,
+      "S2D-B02": 6739463193952132,
+      "S2D-B03": 4487663380266884,
+      "S2E-B01": 8991263007637380,
+      "S2E-B02": 10452031963012,
+      "S2E-B03": 4514051659333508,
+      "S3-B01": 2262251845648260,
+      "S3-B02": 6765851473018756,
+      "S3-B03": 1136351938805636,
+      "S3-B04": 5639951566176132,
+      "S3-B06": 3388151752490884,
+      "S3-B07": 7891751379861380,
+      "S3-B08": 573401985384324,
+      "S3-B09": 5077001612754820,
+      "S3-B10": 2825201799069572,
+      "S3-B11": 7328801426440068,
+      "S3-B12": 1699301892226948,
+      "S3-B13": 6202901519597444,
+      "S3-B14": 3951101705912196,
+      "S3-B15": 8454701333282692,
+      "S3-B05": 291927008673668,
+      "S4-B01": 4795526636044164,
+      "S4-B02": 2543726822358916,
+      "S4-B03": 7047326449729412,
+      "S4-B04": 1417826915516292,
+      "S4-B05": 5921426542886788,
+      "S4-B06": 3669626729201540,
+      "S4-B07": 8173226356572036,
+      "S5-B01": 854876962094980,
+      "S5-B02": 5358476589465476,
+      "S5-B03": 3106676775780228,
+      "S5-B04": 7610276403150724,
+      "S5-B05": 1980776868937604,
+      "S5-B06": 6484376496308100,
+      "S5-B07": 4232576682622852,
+      "S5-B08": 8736176309993348,
+      "PAV-B01": 151189520318340
+    },
+    "children_added": 260,
+    "total_rows": 313,
+    "register_legacy_col_id": 1026239933747076
+  },
+  "sales_status": {
+    "column_id": 8282836699484036,
+    "type": "PICKLIST",
+    "validation": true,
+    "options": [
+      "Not Available",
+      "Available",
+      "Application",
+      "Unconditional",
+      "Settled"
+    ],
+    "data_loss": false
+  }
+}
