@@ -1,0 +1,238 @@
+{
+  "started_at": "2026-05-23 10:42:24",
+  "kyle_choices": {
+    "issue1": "A clone template",
+    "issue2": "A brief folders",
+    "issue3": "A Phase 4 AUTO_NUMBER (formula-helper for RC primary per HTTP1057 workaround)"
+  },
+  "villages": {
+    "100": {
+      "code": "100",
+      "name": "Regency Park",
+      "workspace_id": 3978690771085188,
+      "folder_ids": {
+        "00 - Dashboards": 2665635709773700,
+        "01 - Project Control": 1539735802931076,
+        "02 - Civil and Construction": 6043335430301572,
+        "03 - Sales and Marketing": 8295135243986820,
+        "04 - Health and Safety": 976785849509764,
+        "05 - Reports Internal": 5480385476880260,
+        "06 - Reports External": 2102685756352388
+      },
+      "sheet_ids": {
+        "Unit Register": 5351643322208132,
+        "Civil Programme": 3483843649556356,
+        "Construction Programme": 2852960198414212,
+        "Resource Consent Register": 3792673272975236,
+        "RFQ and Quote Register": 2551176468844420,
+        "Variation Log": 7987443276926852
+      },
+      "autonumber": {
+        "RFQ": "100-RFQ-0001 (via formula + Auto# fill=0000)",
+        "VAR": "100-VAR-0001 (via formula + Auto# AUTO_NUMBER 0000)",
+        "RC": "100-RC-0001 (formula on primary + Auto# helper col)"
+      },
+      "village_formula": "skipped: template Unit Register has no Village column (per brief \u00a74.5)",
+      "new_columns": {
+        "Approx Build Year": 5494973704474500,
+        "Year of Refurbishment": 3240974867533700
+      },
+      "unit_rows_inserted": 88,
+      "non_numeric_unit_ids": [
+        "12A",
+        "55 (Communal)"
+      ],
+      "v100_refurb_tagged": [
+        1,
+        3,
+        8,
+        10,
+        14,
+        15,
+        16,
+        17,
+        23,
+        25,
+        26,
+        32,
+        35,
+        36,
+        37,
+        40,
+        46,
+        47,
+        50,
+        54,
+        59,
+        61
+      ]
+    },
+    "101": {
+      "code": "101",
+      "name": "Kempton Park",
+      "workspace_id": 1304678492333956,
+      "folder_ids": {
+        "00 - Dashboards": 8765726220674948,
+        "01 - Project Control": 6936138872055684,
+        "02 - Civil and Construction": 5810238965213060,
+        "03 - Sales and Marketing": 3558439151527812,
+        "04 - Health and Safety": 743689384421252,
+        "05 - Reports Internal": 1869589291263876,
+        "06 - Reports External": 8624988732319620
+      },
+      "sheet_ids": {
+        "Unit Register": 4525476298051460,
+        "Civil Programme": 219475231068036,
+        "Construction Programme": 143806497247108,
+        "Resource Consent Register": 6725525513916292,
+        "RFQ and Quote Register": 5864056542941060,
+        "Variation Log": 1657090979352452
+      },
+      "autonumber": {
+        "RFQ": "101-RFQ-0001",
+        "VAR": "101-VAR-0001",
+        "RC": "101-RC-0001 (formula on primary + Auto# helper col)"
+      },
+      "village_formula": "skipped: template has no Village column (brief \u00a74.5)",
+      "new_columns": {
+        "Approx Build Year": 4367149652283268,
+        "Year of Refurbishment": 8870955438083972
+      },
+      "unit_rows_inserted": 56,
+      "non_numeric_unit_ids": [
+        "1A",
+        "1B",
+        "55 (Shed)"
+      ],
+      "v100_refurb_tagged": null
+    },
+    "102": {
+      "code": "102",
+      "name": "Roseland Park",
+      "workspace_id": 8060077933389700,
+      "folder_ids": {
+        "00 - Dashboards": 4895445290903428,
+        "01 - Project Control": 7147245104588676,
+        "02 - Civil and Construction": 1517745570375556,
+        "03 - Sales and Marketing": 3769545384060804,
+        "04 - Health and Safety": 8273145011431300,
+        "05 - Reports Internal": 5458395244324740,
+        "06 - Reports External": 3206595430639492
+      },
+      "sheet_ids": {
+        "Unit Register": 2733819953106820,
+        "Civil Programme": 8482459732627332,
+        "Construction Programme": 1269706404089732,
+        "Resource Consent Register": 6298593416662916,
+        "RFQ and Quote Register": 6439373854691204,
+        "Variation Log": 6160690606722948
+      },
+      "autonumber": {
+        "RFQ": "102-RFQ-0001",
+        "VAR": "102-VAR-0001",
+        "RC": "102-RC-0001 (formula on primary + Auto# helper col)"
+      },
+      "village_formula": "skipped: template has no Village column (brief \u00a74.5)",
+      "new_columns": {
+        "Approx Build Year": 4579561554874244,
+        "Year of Refurbishment": 2325562717933444
+      },
+      "unit_rows_inserted": 56,
+      "non_numeric_unit_ids": [
+        "Community Centre",
+        "Garage"
+      ],
+      "v100_refurb_tagged": null
+    }
+  },
+  "v103_column_add": {
+    "new_columns": {
+      "Approx Build Year": 7041076031688580,
+      "Year of Refurbishment": 5704911705902980
+    },
+    "rows_updated": 77,
+    "matched_units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ],
+    "xlsx_only_units": [],
+    "register_only_units": []
+  },
+  "anomalies": [],
+  "finished_at": "2026-05-23 10:44:41"
+}

@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-05-22",
+  "sheet_id": 8305827340308356,
+  "sheet_name": "107 - H and S Incidents and Observations",
+  "column_id_type": 5732978469932932,
+  "current_picklist_options": ["Near Miss - Minor", "Near Miss - Serious (PSIF)", "MTI", "LTI", "Lost Time Injury", "Observation", "Other"],
+  "option_to_remove": "Lost Time Injury",
+  "usage_check": {
+    "lost_time_injury_count": 0,
+    "safe_to_remove": true
+  },
+  "rows": [
+    {"entry_id": "OBS-001", "title": "HSMS not delivering Safe Behaviour outcomes", "type": "Observation"},
+    {"entry_id": "OBS-002", "title": "Audit frequency dropped to 1/month vs 4-6 target", "type": "Observation"},
+    {"entry_id": "OBS-003", "title": "Reporting discrepancy - PCG vs Signature Homes near misses", "type": "Observation"},
+    {"entry_id": "OBS-004", "title": "Open drain trip hazard", "type": "Observation"},
+    {"entry_id": "OBS-005", "title": "Wind-blown material hazard", "type": "Observation"},
+    {"entry_id": "OBS-006", "title": "H&S RAG rated AMBER on project dashboard", "type": "Observation"},
+    {"entry_id": "INC-001", "title": "Wind-blown material near staff member", "type": "Near Miss - Minor"},
+    {"entry_id": "INC-002", "title": "Trip on open drain by builder", "type": "Near Miss - Minor"}
+  ]
+}

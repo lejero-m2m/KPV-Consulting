@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-05-22",
+  "sheet_id": 6233992763232132,
+  "sheet_name": "107 - Civil Programme",
+  "total_rows": 13,
+  "columns_being_cut": [
+    {"col_id": 5504746625732484, "title": "Civil Contractor", "type": "PICKLIST"},
+    {"col_id": 6586215498551172, "title": "Civils Budget (incl GST)", "type": "TEXT_NUMBER"},
+    {"col_id": 4589952951422852, "title": "Contracted Price (incl GST)", "type": "TEXT_NUMBER"},
+    {"col_id": 7434318397083524, "title": "Budget Variance (incl GST)", "type": "TEXT_NUMBER (FORMULA)"},
+    {"col_id": 2338153137737604, "title": "Variations to Date (incl GST)", "type": "TEXT_NUMBER"},
+    {"col_id": 4610895614611332, "title": "Total Cost (incl GST)", "type": "TEXT_NUMBER (FORMULA)"}
+  ],
+  "data_at_risk_high": true,
+  "data_at_risk_detail": {
+    "civil_contractor": "'Matco' on all 13 rows. Trivially recoverable.",
+    "civils_budget": "Empty on all rows sampled (no budget values entered).",
+    "contracted_price_canonical_matco_contract_values": {
+      "Stage 1 Civil Works parent total": 1494083.45,
+      "Civils sub-parent": 1211365.51,
+      "100 - Preliminary and General (Civils)": 86858.93,
+      "200 - Erosion and Sediment Control (Civils)": 4623.0,
+      "400 - Stormwater": 341451.86,
+      "500 - Wastewater": 169119.48,
+      "600 - Water": 194884.04,
+      "700 - Services": 19075.86,
+      "800 - Roading": 395352.35,
+      "Earthworks sub-parent": 282717.94,
+      "100 - Preliminary and General (Earthworks)": 33382.2,
+      "200 - Erosion and Sediment Control (Earthworks)": 120082.36,
+      "300 - Earthworks and Retaining": 129253.39
+    },
+    "variations_to_date": "Empty on all rows sampled.",
+    "budget_variance_total_cost": "Formula-derived from above. Will recompute if columns reinstated."
+  },
+  "migration_status": {
+    "contract_register_holds_them": false,
+    "external_source_pdf": "smartsheet/input/225269 KPV Simpson Rd Stage 1 - NZS3910 Contract Document (1).pdf — original Matco contract document; canonical source remains the PDF.",
+    "verdict_warning": "STOP CONDITION. The canonical Matco Stage 1 civils contract values currently live ONLY on Civil Programme (in Smartsheet). The source PDF in smartsheet/input/ is the off-system canonical record. Contract Register is empty. Deleting these columns removes the only live Smartsheet record of the Matco contract values. Kyle should populate Contract Register with one row for the Matco Stage 1 contract BEFORE deletion, OR accept that the data lives only in the PDF until he populates Contract Register."
+  }
+}

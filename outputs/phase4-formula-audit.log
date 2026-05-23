@@ -1,0 +1,44 @@
+Village | Sheet                          | Exp  | OK  | Missing | Differ | Extra
+-----------------------------------------------------------------------------------------------
+104 | Unit Register                  |    7 |   7 |
+104 | Construction Register          |    9 |   9 |
+104 | Civil Programme                |    2 |   2 |
+104 | Construction Programme         |    1 |   1 |
+104 | RFQ and Quote Register         |    1 |   1 |
+104 | Variation Log                  |    2 |   2 |
+104 | Contract Register              |    4 |   4 |
+104 | Sales Register                 |    7 |   7 |
+104 | Risk Register                  |    3 |   3 |
+104 | Decision Log                   |    1 |   1 |
+104 | Monthly RAG Log                |    1 |   1 |
+104 | H and S Incidents and Observations |    0 |   0 |
+104 | H and S Monthly Indicators     |    0 |   0 |
+105 | Unit Register                  |    7 |   7 |
+105 | Construction Register          |    9 |   9 |
+105 | Civil Programme                |    2 |   2 |
+105 | Construction Programme         |    1 |   1 |
+105 | RFQ and Quote Register         |    1 |   1 |
+105 | Variation Log                  |    2 |   2 |
+105 | Contract Register              |    4 |   4 |
+105 | Sales Register                 |    7 |   7 |
+105 | Risk Register                  |    3 |   3 |
+105 | Decision Log                   |    1 |   1 |
+105 | Monthly RAG Log                |    1 |   1 |
+105 | H and S Incidents and Observations |    0 |   0 |
+105 | H and S Monthly Indicators     |    0 |   0 |
+106 | Unit Register                  |    7 |   7 |
+106 | Construction Register          |    9 |   9 |
+106 | Civil Programme                |    2 |   2 |
+106 | Construction Programme         |    1 |   1 |
+106 | RFQ and Quote Register         |    1 |   1 |
+106 | Variation Log                  |    2 |   2 |
+106 | Contract Register              |    4 |   4 |
+106 | Sales Register                 |    7 |   7 |
+106 | Risk Register                  |    3 |   3 |
+106 | Decision Log                   |    1 |   1 |
+106 | Monthly RAG Log                |    1 |   1 |
+106 | H and S Incidents and Observations |    0 |   0 |
+106 | H and S Monthly Indicators     |    0 |   0 |
+
+=== Total villages=3, issues=0 ===
+Saved: outputs/phase4-formula-audit.json

@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-05-22",
+  "sheet_id": 5289542339743620,
+  "sheet_name": "107 - Unit Register",
+  "column_id_typology": 8001361722773380,
+  "current_picklist_options": ["Berkeley", "Berkeley DG", "Berkeley SG", "Eastwood", "Eastwood DG", "Eastwood SG", "Harris", "Harris DG", "Harris SG", "Jasmine", "Jasmine DG", "Jasmine SG", "Juniper", "Juniper DG", "Juniper SG", "Melrose", "Melrose DG", "Melrose SG", "Monterey", "Monterey DG", "Monterey SG", "Robertson", "Robertson DG", "Robertson SG", "Stanaway", "Stanaway DG", "Stanaway SG"],
+  "options_to_remove": ["Harris SG", "Robertson DG", "Robertson SG", "Stanaway DG", "Stanaway SG"],
+  "usage_check": {
+    "harris_sg_count": 0,
+    "robertson_dg_count": 0,
+    "robertson_sg_count": 0,
+    "stanaway_dg_count": 0,
+    "stanaway_sg_count": 0,
+    "safe_to_remove": true,
+    "notes": "Stage 3/4/5 units use plain 'Robertson' and 'Stanaway' (no DG/SG suffix). Stage 3 unit 174 uses 'Harris DG' (kept). No unit uses any of the 5 to-be-removed options."
+  },
+  "typology_in_use": {
+    "Berkeley SG": "Stages 1/2A/2B/2C/2D/3 (many units)",
+    "Juniper SG": "Stage 1 (101, 103)",
+    "Melrose SG": "Stages 1/2E/3/4/5 (many)",
+    "Melrose DG": "Stage 4 (183, 501, 503)",
+    "Monterey SG": "Stages 1/2A/2C/3/4 (many)",
+    "Monterey DG": "Stages 2A (127), 3 (402, 404)",
+    "Eastwood SG": "Stage 3 (170, 172, 176, 178)",
+    "Jasmine SG": "Stage 3 (164, 166)",
+    "Harris DG": "Stage 3 (174)",
+    "Robertson": "Stages 3/4/5 plain (no garage suffix)",
+    "Stanaway": "Stage 4 plain (180, 180-1..5, 182, 182-1..5)"
+  }
+}

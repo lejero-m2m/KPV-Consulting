@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-05-22",
+  "sheet_id": 1049548813193092,
+  "sheet_name": "107 - Risk Register",
+  "column_ids": {"likelihood": 8413049336926084, "consequence": 1094699942449028, "score": 5598299569819524, "rag": 8888052318769028},
+  "score_formula_validation": {
+    "formula_proposed": "=[Likelihood]@row * [Consequence]@row",
+    "all_rows_match": true,
+    "notes": "All 13 rows have Score = Likelihood * Consequence. Safe to convert to column formula."
+  },
+  "rag_formula_validation": {
+    "formula_proposed": "=IF([Score]@row = \"\", \"Gray\", IF([Score]@row >= 15, \"Red\", IF([Score]@row >= 8, \"Yellow\", \"Green\")))",
+    "all_rows_match": false,
+    "overrides_found": [
+      {"risk_id": "107-RSK-0012", "title": "Units 113/115 - programme risk for Stage 1 completion", "score": 9, "current_rag": "Green", "formula_rag": "Yellow", "note": "Manual override — Kyle has rated this Green despite score=9"}
+    ]
+  },
+  "rows": [
+    {"risk_id": "107-RSK-0001", "title": "HSMS does not deliver Safe Behaviour", "L": 3, "C": 3, "score": 9, "rag": "Yellow", "derived": "Yellow", "match": true},
+    {"risk_id": "107-RSK-0002", "title": "H&S audit frequency significantly below target", "L": 4, "C": 3, "score": 12, "rag": "Yellow", "derived": "Yellow", "match": true},
+    {"risk_id": "107-RSK-0003", "title": "Near-miss reporting gap between Signature Homes and PCG", "L": 3, "C": 3, "score": 9, "rag": "Yellow", "derived": "Yellow", "match": true},
+    {"risk_id": "107-RSK-0006", "title": "Multiple concurrent contractor activities on site", "L": 3, "C": 4, "score": 12, "rag": "Yellow", "derived": "Yellow", "match": true},
+    {"risk_id": "107-RSK-0007", "title": "Slow sales and price pressure - cashflow risk", "L": 4, "C": 4, "score": 16, "rag": "Red", "derived": "Red", "match": true},
+    {"risk_id": "107-RSK-0008", "title": "Building commencement notice delays losing buyer interest", "L": 3, "C": 4, "score": 12, "rag": "Yellow", "derived": "Yellow", "match": true},
+    {"risk_id": "107-RSK-0009", "title": "Stream works Stage 3 - scope and Mana Whenua uncertainty", "L": 3, "C": 4, "score": 12, "rag": "Yellow", "derived": "Yellow", "match": true},
+    {"risk_id": "107-RSK-0010", "title": "Stage 2 civil works on hold pending sales conversions", "L": 4, "C": 2, "score": 8, "rag": "Yellow", "derived": "Yellow", "match": true},
+    {"risk_id": "107-RSK-0011", "title": "Unit 109/111 handover delay", "L": 3, "C": 1, "score": 3, "rag": "Green", "derived": "Green", "match": true},
+    {"risk_id": "107-RSK-0012", "title": "Units 113/115 - programme risk for Stage 1 completion", "L": 3, "C": 3, "score": 9, "rag": "Green", "derived": "Yellow", "match": false},
+    {"risk_id": "107-RSK-0013", "title": "No H&S inductions recorded in March and April 2026", "L": 3, "C": 3, "score": 9, "rag": "Yellow", "derived": "Yellow", "match": true},
+    {"risk_id": "107-RSK-0014", "title": "Unit 111 applicant at-risk - vendor property over market by 200k", "L": 4, "C": 4, "score": 16, "rag": "Red", "derived": "Red", "match": true},
+    {"risk_id": "107-RSK-0015", "title": "Stage 1 floor levels", "L": 4, "C": 4, "score": 16, "rag": "Red", "derived": "Red", "match": true}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "generated": "2026-05-23",
+  "phase": "Phase 4 Phase A — folder restructure",
+  "villages": {
+    "104": {
+      "workspace_id": 5737366867470212,
+      "workspace_name": "104 - Drury - KLE",
+      "top_level": {
+        "00 - Dashboards": 3853161954862980,
+        "01 - Project Control": 6483193768503172,
+        "02 - Sales": 7116512466102148,
+        "03 - Procurement": 6377640652236676,
+        "04 - Civil and Construction": 3070309675886468,
+        "05 - Health and Safety": 6360048466192260,
+        "06 - Reports": 7661870233479044
+      },
+      "sub_folders": {
+        "00 - Dashboards / Chart Sources": 5333104605849476,
+        "06 - Reports / Internal": 4515067954784132,
+        "06 - Reports / External": 6274286559225732
+      }
+    },
+    "105": {
+      "workspace_id": 2189930039404420,
+      "workspace_name": "105 - Rototuna",
+      "top_level": {
+        "00 - Dashboards": 413889583179652,
+        "01 - Project Control": 5071420838438788,
+        "02 - Sales": 3593677210707844,
+        "03 - Procurement": 954849304045444,
+        "04 - Civil and Construction": 8836148651943812,
+        "05 - Health and Safety": 5651962977904516,
+        "06 - Reports": 3892744373462916
+      },
+      "sub_folders": {
+        "00 - Dashboards / Chart Sources": 8631639489177476,
+        "06 - Reports / Internal": 8473309814777732,
+        "06 - Reports / External": 8895522279843716
+      }
+    },
+    "106": {
+      "workspace_id": 1169583248828292,
+      "workspace_name": "106 - Waihi Beach",
+      "top_level": {
+        "00 - Dashboards": 2802028838709124,
+        "01 - Project Control": 5713535629059972,
+        "02 - Sales": 330326699468676,
+        "03 - Procurement": 8141257303189380,
+        "04 - Civil and Construction": 1790478141155204,
+        "05 - Health and Safety": 1333081304000388,
+        "06 - Reports": 8369955721766788
+      },
+      "sub_folders": {
+        "00 - Dashboards / Chart Sources": 3054916513097604,
+        "06 - Reports / Internal": 5271531954694020,
+        "06 - Reports / External": 1401251024922500
+      }
+    }
+  }
+}

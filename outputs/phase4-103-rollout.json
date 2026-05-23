@@ -1,0 +1,38 @@
+{
+  "workspace_id": 2542728585209732,
+  "folder_ids": {
+    "00 - Dashboards": 6775045386200964,
+    "01 - Project Control": 3960295619094404,
+    "02 - Sales": 5226933014292356,
+    "03 - Procurement": 6282464176957316,
+    "04 - Civil and Construction": 1075177107810180,
+    "05 - Health and Safety": 3995479991183236,
+    "06 - Reports": 3291792549406596
+  },
+  "sub_folder_ids": {
+    "00 - Dashboards / Chart Sources": 1814048921675652,
+    "06 - Reports / Internal": 1673311433320324,
+    "06 - Reports / External": 1136749758965636,
+    "04 - Civil and Construction / Archive": 3951499526072196
+  },
+  "sheet_ids": {
+    "103 - Unit Register": 471418012651396,
+    "103 - Construction Register": 877296717090692,
+    "103 - Civil Programme": 1541949348597636,
+    "103 - Construction Programme": 5380896344461188,
+    "103 - RFQ and Quote Register": 3137795450163076,
+    "103 - Variation Log": 2877782961901444,
+    "103 - Contract Register": 8056162753662852,
+    "103 - Sales Register": 8654103268773764,
+    "103 - Risk Register": 3425651137662852,
+    "103 - Decision Log": 7965766576983940,
+    "103 - Monthly RAG Log": 6173841796583300,
+    "103 - H and S Incidents and Observations": 491328944164740,
+    "103 - H and S Monthly Indicators": 3922041982898052,
+    "103 - Chart Source - Application Strength": 647417182506884,
+    "103 - Chart Source - Construction Progress": 7929250765033348,
+    "103 - Chart Source - Sales Pipeline": 7226817453707140,
+    "103 - Chart Source - Typology Sales": 642701308415876
+  },
+  "errors": []
+}

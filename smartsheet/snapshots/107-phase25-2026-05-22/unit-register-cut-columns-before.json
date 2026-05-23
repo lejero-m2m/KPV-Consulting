@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-05-22",
+  "sheet_id": 5289542339743620,
+  "sheet_name": "107 - Unit Register",
+  "total_rows": 128,
+  "columns_being_cut": [
+    {"col_id": 5890299397443460, "title": "Beds", "type": "TEXT_NUMBER"},
+    {"col_id": 3638499583758212, "title": "Garage", "type": "TEXT_NUMBER"},
+    {"col_id": 8142099211128708, "title": "Attachment Type", "type": "TEXT_NUMBER"},
+    {"col_id": 823749816651652, "title": "Floor Area (m²)", "type": "TEXT_NUMBER"}
+  ],
+  "data_at_risk": {
+    "beds": "Populated on Stage 1/2A/2B/2C/2D/2E rows (122 units). Values: 2.0 or 3.0 per typology.",
+    "garage": "Populated on Stage 1/2A/2B/2C/2D/2E/3/4/5 rows. Values: Single or Double per typology.",
+    "attachment_type": "Populated on Stage 1/2A/2B/2C/2D/2E rows (122 units). Values: Duplex or Standalone.",
+    "floor_area": "Populated on Stage 1/2A/2B/2C/2D/2E rows. Values: 121.6, 129.0, 138.4, 142.4, 154.75 etc per typology."
+  },
+  "verdict": "Replaceable. All values are derivable from the Typology Register via cross-sheet formula (UI follow-up Task C.5). Once Kyle creates the cross-sheet refs and formula columns in UI, the same data will populate from Typology Register. Stage 3/4/5 units are currently blank for these columns anyway — they'll get correct values via formula after migration."
+}

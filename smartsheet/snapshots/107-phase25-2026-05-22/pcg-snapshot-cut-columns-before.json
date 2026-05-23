@@ -1,0 +1,38 @@
+{
+  "captured_at": "2026-05-22",
+  "sheet_id": 8488689867902852,
+  "sheet_name": "107 - PCG Status Snapshot",
+  "total_rows": 1,
+  "columns_being_cut": [
+    {"col_id": 3610338523385732, "title": "Civil - This Period", "reason": "Narrative — lives in PCG Word doc"},
+    {"col_id": 8113938150756228, "title": "Civil - Next Period", "reason": "Narrative — lives in PCG Word doc"},
+    {"col_id": 795588756279172, "title": "Building - This Period", "reason": "Narrative — lives in PCG Word doc"},
+    {"col_id": 5299188383649668, "title": "Building - Next Period", "reason": "Narrative — lives in PCG Word doc"},
+    {"col_id": 3047388569964420, "title": "Landscape and Other - This Period", "reason": "Narrative — lives in PCG Word doc"},
+    {"col_id": 7550988197334916, "title": "Landscape and Other - Next Period", "reason": "Narrative — lives in PCG Word doc"},
+    {"col_id": 1921488663121796, "title": "Sales - This Period", "reason": "Narrative — lives in PCG Word doc"},
+    {"col_id": 6425088290492292, "title": "Sales - Next Period", "reason": "Narrative — lives in PCG Word doc"},
+    {"col_id": 7898167583739780, "title": "Settled This Period", "reason": "Derivable from Sales Register COUNTIFS"},
+    {"col_id": 579818189262724, "title": "Settled Cumulative", "reason": "Derivable from Sales Register COUNTIFS"},
+    {"col_id": 5083417816633220, "title": "Application Count", "reason": "Derivable from Sales Register COUNTIFS"},
+    {"col_id": 2831618002947972, "title": "Unconditional Count", "reason": "Derivable from Sales Register COUNTIFS"},
+    {"col_id": 7335217630318468, "title": "Available Count", "reason": "Derivable from Sales Register COUNTIFS"},
+    {"col_id": 1705718096105348, "title": "Total Sales to Date", "reason": "Derivable from Sales Register SUMIFS on List or Sold Price for Settled rows"},
+    {"col_id": 6209317723475844, "title": "New Enquiries This Period", "reason": "Lives in Zoho CRM"},
+    {"col_id": 3957517909790596, "title": "Top Risks Summary", "reason": "Lives in Risk Register, filter top 5"},
+    {"col_id": 8461117537161092, "title": "Board Resolutions This Period", "reason": "Lives in Decision Log, filter by period"}
+  ],
+  "april_2026_row_values": {
+    "narrative_columns": "All 8 narrative columns are EMPTY for April 2026.",
+    "settled_this_period": 1,
+    "settled_cumulative": 6,
+    "application_count": 5,
+    "unconditional_count": 1,
+    "available_count": 7,
+    "total_sales_to_date": 5716945,
+    "new_enquiries_this_period": null,
+    "top_risks_summary": null,
+    "board_resolutions_this_period": null
+  },
+  "verdict": "Safe to delete. Narrative columns are empty (they were always intended to live in the PCG Word doc). Count values can be re-derived from Sales Register via COUNTIFS / SUMIFS. The Sales Register has 128 rows with Sales Status set — fully sufficient to reproduce these counts."
+}

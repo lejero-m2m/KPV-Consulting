@@ -1,0 +1,180 @@
+
+========== Village 104 ==========
+
+--- 104 :: Unit Register ---
+    sheet_id: 4980205960515460
+    file: /home/kyle/KPV-Consulting/smartsheet/input/104 - Drury/104 - Unit Register (2).xlsx
+    matched: 13/39 headers; skipped source cols: ['Design Status', 'Consent Lodged', 'Consent Approved', 'Building Consent Number', 'Days to Approval', 'Consent Status']...
+    imported 286/286 rows
+
+--- 104 :: Civil Programme ---
+    sheet_id: 2451131648135044
+    file: /home/kyle/KPV-Consulting/smartsheet/input/104 - Drury/104 - Civil Programme.xlsx
+    matched: 16/19 headers; skipped source cols: ['Sub-Phase', 'Budget Variance (incl GST)', 'Total Cost (incl GST)']
+    imported 26/26 rows
+
+--- 104 :: Construction Programme ---
+    sheet_id: 7574896635760516
+    file: /home/kyle/KPV-Consulting/smartsheet/input/104 - Drury/104 - Construction Programme.xlsx
+    matched: 11/17 headers; skipped source cols: ['Task Name', 'Is Unit', 'Build Partner', 'Building Consent Number', 'Contract Price (incl GST)', 'Variations (incl GST)']
+    ERR batch 0-285: HTTP 400: {"refId":"096177cc-e9c6-43be-bfe7-b2ba3fe67124","errorCode":5536,"message":"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 5430875075678084 did not conform to the strict requirements for type PICKLIST"}
+    imported 0/285 rows
+
+--- 104 :: Contract Register ---
+    sheet_id: 4829967467630468
+    file: /home/kyle/KPV-Consulting/smartsheet/input/104 - Drury/104-Drury-Build-Contracts.xlsx
+    matched: 14/19 headers; skipped source cols: ['Contract ID', 'Supplier Name', 'Variations to Date (NZD)', 'Current Contract Value (NZD)', 'Documents']
+    ERR batch 0-78: HTTP 400: {"refId":"91b44e25-2419-44d4-abe1-f2eda1a0a07c","errorCode":5536,"message":"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 7771426093567876 did not conform to the strict requirements for type PICKLIST"}
+    imported 0/78 rows
+
+========== Village 105 ==========
+
+--- 105 :: Unit Register ---
+    sheet_id: 12767045046148
+    file: /home/kyle/KPV-Consulting/smartsheet/input/105 - Rototuna/105 - Unit Register (1).xlsx
+    matched: 13/39 headers; skipped source cols: ['Design Status', 'Consent Lodged', 'Consent Approved', 'Building Consent Number', 'Days to Approval', 'Consent Status']...
+    imported 142/142 rows
+
+--- 105 :: Civil Programme ---
+    sheet_id: 5604571798785924
+    file: /home/kyle/KPV-Consulting/smartsheet/input/105 - Rototuna/105 - Civil Programme.xlsx
+    matched: 17/19 headers; skipped source cols: ['Budget Variance (incl GST)', 'Total Cost (incl GST)']
+    imported 41/41 rows
+
+--- 105 :: Construction Programme ---
+    sheet_id: 128413334458244
+    file: /home/kyle/KPV-Consulting/smartsheet/input/105 - Rototuna/105 - Construction Programme.xlsx
+    matched: 11/17 headers; skipped source cols: ['Task Name', 'Is Unit', 'Build Partner', 'Building Consent Number', 'Contract Price (incl GST)', 'Variations (incl GST)']
+    ERR batch 0-301: HTTP 400: {"refId":"5b4a8f21-41e7-4176-a24c-c68ef0b8b509","errorCode":5536,"message":"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 570904831889284 did not conform to the strict requirements for type PICKLIST"}
+    imported 0/301 rows
+
+--- 105 :: Contract Register ---
+    sheet_id: 3568901181886340
+    file: /home/kyle/KPV-Consulting/smartsheet/input/105 - Rototuna/105-Rototuna-Build-Contracts.xlsx
+    matched: 14/19 headers; skipped source cols: ['Contract ID', 'Supplier Name', 'Variations to Date (NZD)', 'Current Contract Value (NZD)', 'Documents']
+    ERR batch 0-38: HTTP 400: {"refId":"3d799885-f607-4564-a7d5-19e4b8e08909","errorCode":5536,"message":"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 32412569735044 did not conform to the strict requirements for type PICKLIST"}
+    imported 0/38 rows
+
+========== Village 106 ==========
+
+--- 106 :: Unit Register ---
+    sheet_id: 1813612472520580
+    file: /home/kyle/KPV-Consulting/smartsheet/input/106 - Waihi Beach/106 - Unit Register (1).xlsx
+    matched: 13/39 headers; skipped source cols: ['Design Status', 'Consent Lodged', 'Consent Approved', 'Building Consent Number', 'Days to Approval', 'Consent Status']...
+    imported 105/105 rows
+
+--- 106 :: Civil Programme ---
+    sheet_id: 8848354439024516
+    file: /home/kyle/KPV-Consulting/smartsheet/input/106 - Waihi Beach/106 - Civil Programme.xlsx
+    matched: 17/19 headers; skipped source cols: ['Budget Variance (incl GST)', 'Total Cost (incl GST)']
+    imported 24/24 rows
+
+--- 106 :: Construction Programme ---
+    sheet_id: 6317212099891076
+    file: /home/kyle/KPV-Consulting/smartsheet/input/106 - Waihi Beach/106 - Construction Programme.xlsx
+    matched: 11/17 headers; skipped source cols: ['Task Name', 'Is Unit', 'Build Partner', 'Building Consent Number', 'Contract Price (incl GST)', 'Variations (incl GST)']
+    ERR batch 0-101: HTTP 400: {"refId":"90587c75-a83c-4b17-bc4a-456f54aabd04","errorCode":5536,"message":"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 3516453533028228 did not conform to the strict requirements for type PICKLIST"}
+    imported 0/101 rows
+
+--- 106 :: Contract Register ---
+    sheet_id: 2125083500826500
+    file: /home/kyle/KPV-Consulting/smartsheet/input/106 - Waihi Beach/106-Waihi-Beach-Build-Contracts.xlsx
+    matched: 14/19 headers; skipped source cols: ['Contract ID', 'Supplier Name', 'Variations to Date (NZD)', 'Current Contract Value (NZD)', 'Documents']
+    ERR batch 0-24: HTTP 400: {"refId":"b50c7e48-0f5e-4275-9a90-d26ac0cad6b2","errorCode":5536,"message":"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 7130299145424772 did not conform to the strict requirements for type PICKLIST"}
+    imported 0/24 rows
+
+
+=== SUMMARY ===
+
+  Village 104:
+    Unit Register                  ->  286 rows imported (13/39 headers matched)
+    Civil Programme                ->   26 rows imported (16/19 headers matched)
+    Construction Programme         ->    0 rows imported (11/17 headers matched)
+    Contract Register              ->    0 rows imported (14/19 headers matched)
+
+  Village 105:
+    Unit Register                  ->  142 rows imported (13/39 headers matched)
+    Civil Programme                ->   41 rows imported (17/19 headers matched)
+    Construction Programme         ->    0 rows imported (11/17 headers matched)
+    Contract Register              ->    0 rows imported (14/19 headers matched)
+
+  Village 106:
+    Unit Register                  ->  105 rows imported (13/39 headers matched)
+    Civil Programme                ->   24 rows imported (17/19 headers matched)
+    Construction Programme         ->    0 rows imported (11/17 headers matched)
+    Contract Register              ->    0 rows imported (14/19 headers matched)
+
+Saved: /home/kyle/KPV-Consulting/outputs/phase4-population-report.json
+
+========== Village 104 ==========
+
+--- 104 :: Construction Programme ---
+    matched: 11/17 headers
+    rows to import: 285
+    imported 285/285 rows
+
+--- 104 :: Contract Register ---
+    matched: 14/19 headers
+    rows to import: 78
+    imported 78/78 rows
+
+========== Village 105 ==========
+
+--- 105 :: Construction Programme ---
+    matched: 11/17 headers
+    rows to import: 301
+    imported 301/301 rows
+
+--- 105 :: Contract Register ---
+    matched: 14/19 headers
+    rows to import: 38
+    imported 38/38 rows
+
+========== Village 106 ==========
+
+--- 106 :: Construction Programme ---
+    matched: 11/17 headers
+    rows to import: 101
+    imported 101/101 rows
+
+--- 106 :: Contract Register ---
+    matched: 14/19 headers
+    rows to import: 24
+    imported 24/24 rows
+
+
+=== RETRY SUMMARY ===
+  [104] Construction Programme         -> 285 rows imported, 0 errors
+  [104] Contract Register              -> 78 rows imported, 0 errors
+  [105] Construction Programme         -> 301 rows imported, 0 errors
+  [105] Contract Register              -> 38 rows imported, 0 errors
+  [106] Construction Programme         -> 101 rows imported, 0 errors
+  [106] Contract Register              -> 24 rows imported, 0 errors
+Reading 107 source rows...
+  107 - Chart Source - Application Strength: 4 rows
+  107 - Chart Source - Construction Progress: 4 rows
+  107 - Chart Source - Sales Pipeline: 5 rows
+  107 - Chart Source - Typology Sales: 4 rows
+
+========== Village 104 ==========
+  Chart Source - Application Strength: 4/4 rows copied
+  Chart Source - Construction Progress: 4/4 rows copied
+  Chart Source - Sales Pipeline: 5/5 rows copied
+  Chart Source - Typology Sales: 4/4 rows copied
+
+========== Village 105 ==========
+  Chart Source - Application Strength: 4/4 rows copied
+  Chart Source - Construction Progress: 4/4 rows copied
+  Chart Source - Sales Pipeline: 5/5 rows copied
+  Chart Source - Typology Sales: 4/4 rows copied
+
+========== Village 106 ==========
+  Chart Source - Application Strength: 4/4 rows copied
+  Chart Source - Construction Progress: 4/4 rows copied
+  Chart Source - Sales Pipeline: 5/5 rows copied
+  Chart Source - Typology Sales: 4/4 rows copied
+
+=== Chart Sources summary ===
+  Village 104: {'Chart Source - Application Strength': 4, 'Chart Source - Construction Progress': 4, 'Chart Source - Sales Pipeline': 5, 'Chart Source - Typology Sales': 4}
+  Village 105: {'Chart Source - Application Strength': 4, 'Chart Source - Construction Progress': 4, 'Chart Source - Sales Pipeline': 5, 'Chart Source - Typology Sales': 4}
+  Village 106: {'Chart Source - Application Strength': 4, 'Chart Source - Construction Progress': 4, 'Chart Source - Sales Pipeline': 5, 'Chart Source - Typology Sales': 4}

@@ -1,0 +1,2390 @@
+{
+  "104": {
+    "Unit Register": {
+      "Unit Number": {
+        "id": 1242663486787460,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 5746263114157956,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Floor Area (m2)": {
+        "id": 3494463300472708,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Attachment Type": {
+        "id": 7998062927843204,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Garage": {
+        "id": 679713533366148,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Beds": {
+        "id": 5183313160736644,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Typology": {
+        "id": 2931513347051396,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Reference": {
+        "id": 7435112974421892,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Up Next": {
+        "id": 1805613440208772,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Exterior Scheme": {
+        "id": 6309213067579268,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Interior Scheme": {
+        "id": 4057413253894020,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "F&F Scheme": {
+        "id": 8561012881264516,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Landscape Approved": {
+        "id": 398238556655492,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Design Approved": {
+        "id": 4901838184025988,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Design Status (Internal Process)": {
+        "id": 2650038370340740,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Contract Signed": {
+        "id": 7153637997711236,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "CEO Approval": {
+        "id": 1524138463498116,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Consent Status": {
+        "id": 6027738090868612,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 3775938277183364,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Sales Status": {
+        "id": 8279537904553860,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Latest Comment": {
+        "id": 961188510076804,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 5464788137447300,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      }
+    },
+    "Construction Programme": {
+      "Building Reference": {
+        "id": 4867925122256772,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Include in Report": {
+        "id": 2616125308571524,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Building Name": {
+        "id": 7119724935942020,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Building Group": {
+        "id": 1490225401728900,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 5993825029099396,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Units": {
+        "id": 3742025215414148,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Unit Count": {
+        "id": 8245624842784644,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Typology": {
+        "id": 927275448307588,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 5430875075678084,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Consent Numbers": {
+        "id": 3179075261992836,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "% Complete": {
+        "id": 7682674889363332,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RAG": {
+        "id": 2053175355150212,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Start Date": {
+        "id": 6556774982520708,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "End Date": {
+        "id": 4304975168835460,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "Predecessors": {
+        "id": 8808574796205956,
+        "type": "PREDECESSOR",
+        "systemColumnType": null
+      },
+      "Duration": {
+        "id": 223588006530948,
+        "type": "DURATION",
+        "systemColumnType": null
+      },
+      "Notes/Latest": {
+        "id": 4727187633901444,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      }
+    },
+    "Civil Programme": {
+      "Task Name": {
+        "id": 589802687991684,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Required": {
+        "id": 5093402315362180,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 2841602501676932,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Civil Contractor": {
+        "id": 7345202129047428,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 1715702594834308,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "RAG": {
+        "id": 6219302222204804,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "% Complete": {
+        "id": 3967502408519556,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Duration": {
+        "id": 8471102035890052,
+        "type": "DURATION",
+        "systemColumnType": null
+      },
+      "Start Date": {
+        "id": 308327711281028,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "End Date": {
+        "id": 4811927338651524,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "Predecessors": {
+        "id": 2560127524966276,
+        "type": "PREDECESSOR",
+        "systemColumnType": null
+      },
+      "Civils Budget (incl GST)": {
+        "id": 7063727152336772,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contracted Price (incl GST)": {
+        "id": 1434227618123652,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Budget Variance (incl GST)": {
+        "id": 5937827245494148,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variations to Date (incl GST)": {
+        "id": 3686027431808900,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Total Cost (incl GST)": {
+        "id": 8189627059179396,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 871277664702340,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Latest Comment": {
+        "id": 5374877292072836,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Include in Report": {
+        "id": 3123077478387588,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      }
+    },
+    "Variation Log": {
+      "Variation Title": {
+        "id": 3057965774180228,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variation ID": {
+        "id": 7561565401550724,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Date Raised": {
+        "id": 1932065867337604,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Raised By": {
+        "id": 6435665494708100,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 4183865681022852,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Building": {
+        "id": 8687465308393348,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Unit": {
+        "id": 524690983784324,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Contract": {
+        "id": 5028290611154820,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 2776490797469572,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Category": {
+        "id": 7280090424840068,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Variation Source": {
+        "id": 1650590890626948,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Variation Type": {
+        "id": 6154190517997444,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Description": {
+        "id": 3902390704312196,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Impact (NZD)": {
+        "id": 8405990331682692,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Programme Impact (days)": {
+        "id": 1087640937205636,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Band": {
+        "id": 5591240564576132,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Required Approval Level": {
+        "id": 3339440750890884,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Approval Status": {
+        "id": 7843040378261380,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "L1 Approver (Delivery Lead)": {
+        "id": 2213540844048260,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L1 Approval Date": {
+        "id": 6717140471418756,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L2 Approver (GM Developments)": {
+        "id": 4465340657733508,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L2 Approval Date": {
+        "id": 8968940285104004,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L3 Approver (CFO)": {
+        "id": 67294146629508,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L3 Approval Date": {
+        "id": 4570893774000004,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L4 Approver (CEO)": {
+        "id": 2319093960314756,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L4 Approval Date": {
+        "id": 6822693587685252,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Final Approval Status": {
+        "id": 1193194053472132,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Final Approved By": {
+        "id": 5696793680842628,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "Final Approval Date": {
+        "id": 3444993867157380,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Rejection Reason": {
+        "id": 7948593494527876,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 630244100050820,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 5133843727421316,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 2882043913736068,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 7385643541106564,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    },
+    "RFQ and Quote Register": {
+      "RFQ or Quote Name": {
+        "id": 3049472476352388,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "ID": {
+        "id": 7553072103722884,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Quote ID": {
+        "id": 1923572569509764,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Type": {
+        "id": 6427172196880260,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 4175372383195012,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 8678972010565508,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Scope Description": {
+        "id": 516197685956484,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RFQ Issue Date": {
+        "id": 5019797313326980,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "RFQ Due Date": {
+        "id": 2767997499641732,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Suppliers Invited": {
+        "id": 7271597127012228,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RFQ Status": {
+        "id": 1642097592799108,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Supplier Name": {
+        "id": 6145697220169604,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier ID": {
+        "id": 3893897406484356,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Submitted Date": {
+        "id": 8397497033854852,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Quote Amount (NZD)": {
+        "id": 1079147639377796,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Validity (days)": {
+        "id": 5582747266748292,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Status": {
+        "id": 3330947453063044,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Award Date": {
+        "id": 7834547080433540,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Linked Contract": {
+        "id": 2205047546220420,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 6708647173590916,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 4456847359905668,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 8960446987276164,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 58800848801668,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    },
+    "Risk Register": {
+      "Risk ID": {
+        "id": 503205409886084,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Risk Title": {
+        "id": 5006805037256580,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Village": {
+        "id": 2755005223571332,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Date Identified": {
+        "id": 7258604850941828,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "RAG": {
+        "id": 1629105316728708,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Category": {
+        "id": 6132704944099204,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Risk Description": {
+        "id": 3880905130413956,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Likelihood": {
+        "id": 8384504757784452,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Consequence": {
+        "id": 1066155363307396,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Score": {
+        "id": 5569754990677892,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Current Controls / Mitigation": {
+        "id": 3317955176992644,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Owner": {
+        "id": 7821554804363140,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Status": {
+        "id": 2192055270150020,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Last Reviewed": {
+        "id": 6695654897520516,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 4443855083835268,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 8947454711205764,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Building": {
+        "id": 45808572731268,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Accountable Person": {
+        "id": 4549408200101764,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      }
+    },
+    "Contract Register": {
+      "Contract Title": {
+        "id": 8334376046989188,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract ID": {
+        "id": 1016026652512132,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Supplier Name": {
+        "id": 5519626279882628,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier ID": {
+        "id": 3267826466197380,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Type": {
+        "id": 7771426093567876,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Reference": {
+        "id": 2141926559354756,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Stages Covered": {
+        "id": 6645526186725252,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 4393726373040004,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked RFQ": {
+        "id": 8897326000410500,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Value (NZD)": {
+        "id": 101232978202500,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variations to Date (NZD)": {
+        "id": 4604832605572996,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Current Contract Value (NZD)": {
+        "id": 2353032791887748,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Date": {
+        "id": 6856632419258244,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Practical Completion Date": {
+        "id": 1227132885045124,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Final Completion Date": {
+        "id": 5730732512415620,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Payment Terms": {
+        "id": 3478932698730372,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Retention %": {
+        "id": 7982532326100868,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Status": {
+        "id": 664182931623812,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 5167782558994308,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier Insurance Status": {
+        "id": 2915982745309060,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 7419582372679556,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 1790082838466436,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 6293682465836932,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    }
+  },
+  "105": {
+    "Unit Register": {
+      "Unit Number": {
+        "id": 5937722018795396,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 3685922205110148,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Floor Area (m2)": {
+        "id": 8189521832480644,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Attachment Type": {
+        "id": 871172438003588,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Garage": {
+        "id": 5374772065374084,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Beds": {
+        "id": 3122972251688836,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Typology": {
+        "id": 7626571879059332,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Reference": {
+        "id": 1997072344846212,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Up Next": {
+        "id": 6500671972216708,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Exterior Scheme": {
+        "id": 4248872158531460,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Interior Scheme": {
+        "id": 8752471785901956,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "F&F Scheme": {
+        "id": 167484996226948,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Landscape Approved": {
+        "id": 4671084623597444,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Design Approved": {
+        "id": 2419284809912196,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Design Status (Internal Process)": {
+        "id": 6922884437282692,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Contract Signed": {
+        "id": 1293384903069572,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "CEO Approval": {
+        "id": 5796984530440068,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Consent Status": {
+        "id": 3545184716754820,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 8048784344125316,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Sales Status": {
+        "id": 730434949648260,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Latest Comment": {
+        "id": 5234034577018756,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 2982234763333508,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      }
+    },
+    "Construction Programme": {
+      "Building Reference": {
+        "id": 7954878467972,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Include in Report": {
+        "id": 4511554505838468,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Building Name": {
+        "id": 2259754692153220,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Building Group": {
+        "id": 6763354319523716,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 1133854785310596,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Units": {
+        "id": 5637454412681092,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Unit Count": {
+        "id": 3385654598995844,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Typology": {
+        "id": 7889254226366340,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 570904831889284,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Consent Numbers": {
+        "id": 5074504459259780,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "% Complete": {
+        "id": 2822704645574532,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RAG": {
+        "id": 7326304272945028,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Start Date": {
+        "id": 1696804738731908,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "End Date": {
+        "id": 6200404366102404,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "Predecessors": {
+        "id": 3948604552417156,
+        "type": "PREDECESSOR",
+        "systemColumnType": null
+      },
+      "Duration": {
+        "id": 8452204179787652,
+        "type": "DURATION",
+        "systemColumnType": null
+      },
+      "Notes/Latest": {
+        "id": 289429855178628,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      }
+    },
+    "Civil Programme": {
+      "Task Name": {
+        "id": 7805820191674244,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Required": {
+        "id": 2176320657461124,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 6679920284831620,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Civil Contractor": {
+        "id": 4428120471146372,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 8931720098516868,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "RAG": {
+        "id": 135627076308868,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "% Complete": {
+        "id": 4639226703679364,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Duration": {
+        "id": 2387426889994116,
+        "type": "DURATION",
+        "systemColumnType": null
+      },
+      "Start Date": {
+        "id": 6891026517364612,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "End Date": {
+        "id": 1261526983151492,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "Predecessors": {
+        "id": 5765126610521988,
+        "type": "PREDECESSOR",
+        "systemColumnType": null
+      },
+      "Civils Budget (incl GST)": {
+        "id": 3513326796836740,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contracted Price (incl GST)": {
+        "id": 8016926424207236,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Budget Variance (incl GST)": {
+        "id": 698577029730180,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variations to Date (incl GST)": {
+        "id": 5202176657100676,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Total Cost (incl GST)": {
+        "id": 2950376843415428,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 7453976470785924,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Latest Comment": {
+        "id": 1824476936572804,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Include in Report": {
+        "id": 6328076563943300,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      }
+    },
+    "Variation Log": {
+      "Variation Title": {
+        "id": 286337478725508,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variation ID": {
+        "id": 4789937106096004,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Date Raised": {
+        "id": 2538137292410756,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Raised By": {
+        "id": 7041736919781252,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 1412237385568132,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Building": {
+        "id": 5915837012938628,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Unit": {
+        "id": 3664037199253380,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Contract": {
+        "id": 8167636826623876,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 849287432146820,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Category": {
+        "id": 5352887059517316,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Variation Source": {
+        "id": 3101087245832068,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Variation Type": {
+        "id": 7604686873202564,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Description": {
+        "id": 1975187338989444,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Impact (NZD)": {
+        "id": 6478786966359940,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Programme Impact (days)": {
+        "id": 4226987152674692,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Band": {
+        "id": 8730586780045188,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Required Approval Level": {
+        "id": 145599990370180,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Approval Status": {
+        "id": 4649199617740676,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "L1 Approver (Delivery Lead)": {
+        "id": 2397399804055428,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L1 Approval Date": {
+        "id": 6900999431425924,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L2 Approver (GM Developments)": {
+        "id": 1271499897212804,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L2 Approval Date": {
+        "id": 5775099524583300,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L3 Approver (CFO)": {
+        "id": 3523299710898052,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L3 Approval Date": {
+        "id": 8026899338268548,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L4 Approver (CEO)": {
+        "id": 708549943791492,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L4 Approval Date": {
+        "id": 5212149571161988,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Final Approval Status": {
+        "id": 2960349757476740,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Final Approved By": {
+        "id": 7463949384847236,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "Final Approval Date": {
+        "id": 1834449850634116,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Rejection Reason": {
+        "id": 6338049478004612,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 4086249664319364,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 8589849291689860,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 427074967080836,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 4930674594451332,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    },
+    "RFQ and Quote Register": {
+      "RFQ or Quote Name": {
+        "id": 5693417836547972,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "ID": {
+        "id": 3441618022862724,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Quote ID": {
+        "id": 7945217650233220,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Type": {
+        "id": 626868255756164,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 5130467883126660,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 2878668069441412,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Scope Description": {
+        "id": 7382267696811908,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RFQ Issue Date": {
+        "id": 1752768162598788,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "RFQ Due Date": {
+        "id": 6256367789969284,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Suppliers Invited": {
+        "id": 4004567976284036,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RFQ Status": {
+        "id": 8508167603654532,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Supplier Name": {
+        "id": 345393279045508,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier ID": {
+        "id": 4848992906416004,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Submitted Date": {
+        "id": 2597193092730756,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Quote Amount (NZD)": {
+        "id": 7100792720101252,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Validity (days)": {
+        "id": 1471293185888132,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Status": {
+        "id": 5974892813258628,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Award Date": {
+        "id": 3723092999573380,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Linked Contract": {
+        "id": 8226692626943876,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 908343232466820,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 5411942859837316,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 3160143046152068,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 7663742673522564,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    },
+    "Risk Register": {
+      "Risk ID": {
+        "id": 5304403321196420,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Risk Title": {
+        "id": 3052603507511172,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Village": {
+        "id": 7556203134881668,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Date Identified": {
+        "id": 1926703600668548,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "RAG": {
+        "id": 6430303228039044,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Category": {
+        "id": 4178503414353796,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Risk Description": {
+        "id": 8682103041724292,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Likelihood": {
+        "id": 519328717115268,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Consequence": {
+        "id": 5022928344485764,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Score": {
+        "id": 2771128530800516,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Current Controls / Mitigation": {
+        "id": 7274728158171012,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Owner": {
+        "id": 1645228623957892,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Status": {
+        "id": 6148828251328388,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Last Reviewed": {
+        "id": 3897028437643140,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 8400628065013636,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 1082278670536580,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Building": {
+        "id": 5585878297907076,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Accountable Person": {
+        "id": 3334078484221828,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      }
+    },
+    "Contract Register": {
+      "Contract Title": {
+        "id": 2231435825287044,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract ID": {
+        "id": 6735035452657540,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Supplier Name": {
+        "id": 4483235638972292,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier ID": {
+        "id": 8986835266342788,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Type": {
+        "id": 32412569735044,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Reference": {
+        "id": 4536012197105540,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Stages Covered": {
+        "id": 2284212383420292,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 6787812010790788,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked RFQ": {
+        "id": 1158312476577668,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Value (NZD)": {
+        "id": 5661912103948164,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variations to Date (NZD)": {
+        "id": 3410112290262916,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Current Contract Value (NZD)": {
+        "id": 7913711917633412,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Date": {
+        "id": 595362523156356,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Practical Completion Date": {
+        "id": 5098962150526852,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Final Completion Date": {
+        "id": 2847162336841604,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Payment Terms": {
+        "id": 7350761964212100,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Retention %": {
+        "id": 1721262429998980,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Status": {
+        "id": 6224862057369476,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 3973062243684228,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier Insurance Status": {
+        "id": 8476661871054724,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 313887546445700,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 4817487173816196,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 2565687360130948,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    }
+  },
+  "106": {
+    "Unit Register": {
+      "Unit Number": {
+        "id": 2601659858718596,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 7105259486089092,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Floor Area (m2)": {
+        "id": 1475759951875972,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Attachment Type": {
+        "id": 5979359579246468,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Garage": {
+        "id": 3727559765561220,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Beds": {
+        "id": 8231159392931716,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Typology": {
+        "id": 912809998454660,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Reference": {
+        "id": 5416409625825156,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Up Next": {
+        "id": 3164609812139908,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Exterior Scheme": {
+        "id": 7668209439510404,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Interior Scheme": {
+        "id": 2038709905297284,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "F&F Scheme": {
+        "id": 6542309532667780,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Landscape Approved": {
+        "id": 4290509718982532,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Design Approved": {
+        "id": 8794109346353028,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Design Status (Internal Process)": {
+        "id": 209122556678020,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Contract Signed": {
+        "id": 4712722184048516,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "CEO Approval": {
+        "id": 2460922370363268,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Consent Status": {
+        "id": 6964521997733764,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 1335022463520644,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Sales Status": {
+        "id": 5838622090891140,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Latest Comment": {
+        "id": 3586822277205892,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 8090421904576388,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      }
+    },
+    "Construction Programme": {
+      "Building Reference": {
+        "id": 4431247207337860,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Include in Report": {
+        "id": 8934846834708356,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Building Name": {
+        "id": 138753812500356,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Building Group": {
+        "id": 4642353439870852,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 2390553626185604,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Units": {
+        "id": 6894153253556100,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Unit Count": {
+        "id": 1264653719342980,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Typology": {
+        "id": 5768253346713476,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 3516453533028228,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Consent Numbers": {
+        "id": 8020053160398724,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "% Complete": {
+        "id": 701703765921668,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RAG": {
+        "id": 5205303393292164,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Start Date": {
+        "id": 2953503579606916,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "End Date": {
+        "id": 7457103206977412,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "Predecessors": {
+        "id": 1827603672764292,
+        "type": "PREDECESSOR",
+        "systemColumnType": null
+      },
+      "Duration": {
+        "id": 6331203300134788,
+        "type": "DURATION",
+        "systemColumnType": null
+      },
+      "Notes/Latest": {
+        "id": 4079403486449540,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      }
+    },
+    "Civil Programme": {
+      "Task Name": {
+        "id": 2702608770043780,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Required": {
+        "id": 7206208397414276,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      },
+      "Stage": {
+        "id": 1576708863201156,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Civil Contractor": {
+        "id": 6080308490571652,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Construction Status": {
+        "id": 3828508676886404,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "RAG": {
+        "id": 8332108304256900,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "% Complete": {
+        "id": 1013758909779844,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Duration": {
+        "id": 5517358537150340,
+        "type": "DURATION",
+        "systemColumnType": null
+      },
+      "Start Date": {
+        "id": 3265558723465092,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "End Date": {
+        "id": 7769158350835588,
+        "type": "ABSTRACT_DATETIME",
+        "systemColumnType": null
+      },
+      "Predecessors": {
+        "id": 2139658816622468,
+        "type": "PREDECESSOR",
+        "systemColumnType": null
+      },
+      "Civils Budget (incl GST)": {
+        "id": 6643258443992964,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contracted Price (incl GST)": {
+        "id": 4391458630307716,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Budget Variance (incl GST)": {
+        "id": 8895058257678212,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variations to Date (incl GST)": {
+        "id": 98965235470212,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Total Cost (incl GST)": {
+        "id": 4602564862840708,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 2350765049155460,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Latest Comment": {
+        "id": 6854364676525956,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Include in Report": {
+        "id": 1224865142312836,
+        "type": "CHECKBOX",
+        "systemColumnType": null
+      }
+    },
+    "Variation Log": {
+      "Variation Title": {
+        "id": 3153642613149572,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variation ID": {
+        "id": 7657242240520068,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Date Raised": {
+        "id": 2027742706306948,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Raised By": {
+        "id": 6531342333677444,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 4279542519992196,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Building": {
+        "id": 8783142147362692,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Unit": {
+        "id": 198155357687684,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Contract": {
+        "id": 4701754985058180,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 2449955171372932,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Category": {
+        "id": 6953554798743428,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Variation Source": {
+        "id": 1324055264530308,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Variation Type": {
+        "id": 5827654891900804,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Description": {
+        "id": 3575855078215556,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Impact (NZD)": {
+        "id": 8079454705586052,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Programme Impact (days)": {
+        "id": 761105311108996,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Cost Band": {
+        "id": 5264704938479492,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Required Approval Level": {
+        "id": 3012905124794244,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Approval Status": {
+        "id": 7516504752164740,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "L1 Approver (Delivery Lead)": {
+        "id": 1887005217951620,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L1 Approval Date": {
+        "id": 6390604845322116,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L2 Approver (GM Developments)": {
+        "id": 4138805031636868,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L2 Approval Date": {
+        "id": 8642404659007364,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L3 Approver (CFO)": {
+        "id": 479630334398340,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L3 Approval Date": {
+        "id": 4983229961768836,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "L4 Approver (CEO)": {
+        "id": 2731430148083588,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "L4 Approval Date": {
+        "id": 7235029775454084,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Final Approval Status": {
+        "id": 1605530241240964,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Final Approved By": {
+        "id": 6109129868611460,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      },
+      "Final Approval Date": {
+        "id": 3857330054926212,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Rejection Reason": {
+        "id": 8360929682296708,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 1042580287819652,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 5546179915190148,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 3294380101504900,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 7797979728875396,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    },
+    "RFQ and Quote Register": {
+      "RFQ or Quote Name": {
+        "id": 6587569898033028,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "ID": {
+        "id": 4335770084347780,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Quote ID": {
+        "id": 8839369711718276,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Type": {
+        "id": 254382922043268,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 4757982549413764,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 2506182735728516,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Scope Description": {
+        "id": 7009782363099012,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RFQ Issue Date": {
+        "id": 1380282828885892,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "RFQ Due Date": {
+        "id": 5883882456256388,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Suppliers Invited": {
+        "id": 3632082642571140,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "RFQ Status": {
+        "id": 8135682269941636,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Supplier Name": {
+        "id": 817332875464580,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier ID": {
+        "id": 5320932502835076,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Submitted Date": {
+        "id": 3069132689149828,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Quote Amount (NZD)": {
+        "id": 7572732316520324,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Validity (days)": {
+        "id": 1943232782307204,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Quote Status": {
+        "id": 6446832409677700,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Award Date": {
+        "id": 4195032595992452,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Linked Contract": {
+        "id": 8698632223362948,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 535857898753924,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 5039457526124420,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 2787657712439172,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 7291257339809668,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    },
+    "Risk Register": {
+      "Risk ID": {
+        "id": 3491173355523972,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Risk Title": {
+        "id": 7994772982894468,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Village": {
+        "id": 676423588417412,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Date Identified": {
+        "id": 5180023215787908,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "RAG": {
+        "id": 2928223402102660,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Category": {
+        "id": 7431823029473156,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Risk Description": {
+        "id": 1802323495260036,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Likelihood": {
+        "id": 6305923122630532,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Consequence": {
+        "id": 4054123308945284,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Score": {
+        "id": 8557722936315780,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Current Controls / Mitigation": {
+        "id": 394948611706756,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Owner": {
+        "id": 4898548239077252,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Status": {
+        "id": 2646748425392004,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Last Reviewed": {
+        "id": 7150348052762500,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 1520848518549380,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked Stage": {
+        "id": 6024448145919876,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Linked Building": {
+        "id": 3772648332234628,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Accountable Person": {
+        "id": 8276247959605124,
+        "type": "CONTACT_LIST",
+        "systemColumnType": null
+      }
+    },
+    "Contract Register": {
+      "Contract Title": {
+        "id": 8537674028978052,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract ID": {
+        "id": 374899704369028,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": "AUTO_NUMBER"
+      },
+      "Supplier Name": {
+        "id": 4878499331739524,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier ID": {
+        "id": 2626699518054276,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Type": {
+        "id": 7130299145424772,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Building Reference": {
+        "id": 1500799611211652,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Stages Covered": {
+        "id": 6004399238582148,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Trade Package": {
+        "id": 3752599424896900,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Linked RFQ": {
+        "id": 8256199052267396,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Value (NZD)": {
+        "id": 937849657790340,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Variations to Date (NZD)": {
+        "id": 5441449285160836,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Current Contract Value (NZD)": {
+        "id": 3189649471475588,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Date": {
+        "id": 7693249098846084,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Practical Completion Date": {
+        "id": 2063749564632964,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Final Completion Date": {
+        "id": 6567349192003460,
+        "type": "DATE",
+        "systemColumnType": null
+      },
+      "Payment Terms": {
+        "id": 4315549378318212,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Retention %": {
+        "id": 8819149005688708,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Contract Status": {
+        "id": 234162216013700,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Document Link": {
+        "id": 4737761843384196,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Supplier Insurance Status": {
+        "id": 2485962029698948,
+        "type": "PICKLIST",
+        "systemColumnType": null
+      },
+      "Notes": {
+        "id": 6989561657069444,
+        "type": "TEXT_NUMBER",
+        "systemColumnType": null
+      },
+      "Created": {
+        "id": 1360062122856324,
+        "type": "DATETIME",
+        "systemColumnType": "CREATED_DATE"
+      },
+      "Modified": {
+        "id": 5863661750226820,
+        "type": "DATETIME",
+        "systemColumnType": "MODIFIED_DATE"
+      }
+    }
+  }
+}

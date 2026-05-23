@@ -1,0 +1,31 @@
+{
+  "104": {
+    "updates_attempted": 17,
+    "inserts_attempted": 1,
+    "update_errors": [],
+    "insert_errors": [],
+    "updates_ok": 17,
+    "inserts_ok": 1,
+    "inserted_contract_ids": [
+      {
+        "contract_id": "104-CON-0079",
+        "title": "Individual Building Contract - Monterey 235-236",
+        "row_id": 4226642886983556
+      }
+    ]
+  },
+  "105": {
+    "updates_attempted": 6,
+    "inserts_attempted": 0,
+    "update_errors": [],
+    "insert_errors": [],
+    "updates_ok": 6
+  },
+  "106": {
+    "updates_attempted": 14,
+    "inserts_attempted": 0,
+    "update_errors": [],
+    "insert_errors": [],
+    "updates_ok": 14
+  }
+}

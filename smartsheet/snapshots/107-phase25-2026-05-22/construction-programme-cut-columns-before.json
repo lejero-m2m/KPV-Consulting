@@ -1,0 +1,27 @@
+{
+  "captured_at": "2026-05-22",
+  "sheet_id": 4820480841174916,
+  "sheet_name": "107 - Construction Programme",
+  "total_rows": 329,
+  "columns_being_cut": [
+    {"col_id": 2328413351481220, "title": "Build Partner", "type": "PICKLIST"},
+    {"col_id": 1202513444638596, "title": "Contract Package", "type": "TEXT_NUMBER"},
+    {"col_id": 5706113072009092, "title": "Contract Price (incl GST)", "type": "TEXT_NUMBER"},
+    {"col_id": 3454313258323844, "title": "Variations (incl GST)", "type": "TEXT_NUMBER"},
+    {"col_id": 1765463398059908, "title": "Budget Approved", "type": "TEXT_NUMBER"},
+    {"col_id": 6269063025430404, "title": "Expected Total Cost", "type": "TEXT_NUMBER"},
+    {"col_id": 4017263211745156, "title": "Expected Variance", "type": "TEXT_NUMBER"}
+  ],
+  "data_at_risk": {
+    "build_partner": "Populated on all building parent rows: 'Signature Homes' (10 Stage 1 buildings + Stage 2A/2B/2C/2D/2E placeholders + likely Stage 3/4/5). Trivially recoverable from Construction Register.",
+    "contract_price": "Stage 1 building parents have populated values matching Construction Register exactly (e.g. S1-B01 = $689,689.10, S1-B02 = $647,623.80, S1-B03 = $865,894.80, S1-B04 = $709,480.40, S1-B05 = $755,959.42, S1-B06 = $399,834.94, S1-B07 = $760,440.50). S1-B08/B09/B10 = $0 (not yet contracted). Stage 2/3/4/5 = $0.",
+    "variations": "Populated with same values as Contract Price on the parents (looks like manual duplication, not actual variations).",
+    "contract_package": "Empty on all rows sampled.",
+    "budget_approved_expected_cost_expected_variance": "Empty on all rows sampled."
+  },
+  "migration_status": {
+    "construction_register_holds_same_contract_prices": true,
+    "contract_register_holds_them": false,
+    "verdict": "Construction Register already holds the same Stage 1 contract prices manually. Construction Programme is a duplicate that can be cut safely. The eventual Contract Register population (Phase 2.5 Section M / future) will become the canonical source, with Construction Register pulling via cross-sheet formula (per Section J Task J.3 UI follow-up)."
+  }
+}

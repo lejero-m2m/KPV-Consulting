@@ -1,0 +1,64 @@
+{
+  "Unit Register": {
+    "Floor Area (m2)": "=INDEX({TR Floor Area}, MATCH(Typology@row, {TR Typology Name}, 0))",
+    "Attachment Type": "=INDEX({TR Attachment Type}, MATCH(Typology@row, {TR Typology Name}, 0))",
+    "Garage": "=INDEX({TR Garage}, MATCH(Typology@row, {TR Typology Name}, 0))",
+    "Beds": "=INDEX({TR Beds}, MATCH(Typology@row, {TR Typology Name}, 0))",
+    "Consent Status": "=IFERROR(INDEX({107 Consent Status}, MATCH([Building Reference]@row, {107 CR Building Reference}, 0)), \"\")",
+    "Construction Status": "=IFERROR(INDEX({107 Construction Status}, MATCH([Building Reference]@row, {107 CR Building Reference}, 0)), \"\")",
+    "Sales Status": "=IFERROR(INDEX({SR Sales Status}, MATCH([Unit Number]@row, {SR Unit Number}, 0)), \"\")"
+  },
+  "Construction Register": {
+    "Stage": "=IFERROR(\"Stage \" + MID([Building Reference]@row, 2, FIND(\"-\", [Building Reference]@row) - 2), \"\")",
+    "Days to Approval": "=IFERROR([Consent Approved]@row - [Consent Lodged]@row, \"\")",
+    "Construction Status": "=IFERROR(INDEX({107 CP Construction Status}, MATCH([Building Reference]@row, {107 CP Building Reference}, 0)), \"\")",
+    "Contract Price (incl GST)": "=IFERROR(INDEX({ContR Contract Value}, MATCH([Building Reference]@row, {ContR Building Reference}, 0)), \"\")",
+    "Post Contract Variations (incl GST)": "=SUMIFS({VL Cost Impact}, {VL Linked Building}, [Building Reference]@row, {VL Final Approval Status}, \"Approved\")",
+    "Construction Budget (incl GST)": "=IFERROR(IF(COUNT(CHILDREN([Construction Budget (incl GST)]@row)) > 0, SUM(CHILDREN([Construction Budget (incl GST)]@row)), INDEX({Papamoa Budget Approved}, MATCH([Building Reference]@row, {Papamoa Budget Building Reference}, 0))), \"\")",
+    "Budget Remaining (incl GST)": "=IF(COUNT(CHILDREN()) > 0, SUM(CHILDREN()), [Construction Budget (incl GST)]@row - [Contract Price (incl GST)]@row - [Post Contract Variations (incl GST)]@row)",
+    "Budget Flag": "=IF(COUNT(CHILDREN()) > 0, \"\", IF([Contract Price (incl GST)]@row = \"\", \"\", IF([Budget Remaining (incl GST)]@row > 0, \"Up\", IF([Budget Remaining (incl GST)]@row < 0, \"Down\", \"Unchanged\"))))",
+    "Supplier ID": "=IFERROR(INDEX({SuppR Supplier ID}, MATCH([Build Partner]@row, {SuppR Trading Name}, 0)), \"\")"
+  },
+  "Civil Programme": {
+    "Budget Variance (incl GST)": "=IFERROR([Contracted Price (incl GST)]@row - [Civils Budget (incl GST)]@row, \"\")",
+    "Total Cost (incl GST)": "=IFERROR([Contracted Price (incl GST)]@row + [Variations to Date (incl GST)]@row, \"\")"
+  },
+  "Construction Programme": {
+    "Building Group": "=IF(LEFT([Building Reference]@row, 1) = \"S\", [Building Reference]@row, PARENT([Building Reference]@row))"
+  },
+  "RFQ and Quote Register": {
+    "Supplier Name": "=IF(Type@row = \"Quote\", IFERROR(INDEX({SuppR Trading Name}, MATCH([Supplier ID]@row, {SuppR Supplier ID}, 0)), \"\"), \"\")"
+  },
+  "Variation Log": {
+    "Cost Band": "=IF(ABS([Cost Impact (NZD)]@row) <= 5000, \"Delivery Lead Approval\", IF(ABS([Cost Impact (NZD)]@row) <= 25000, \"GM Developments Approval\", IF(ABS([Cost Impact (NZD)]@row) <= 50000, \"CFO Co-Sign Required\", \"CEO Approval Required\")))",
+    "Required Approval Level": "=IF([Cost Band]@row = \"Delivery Lead Approval\", \"L1\", IF([Cost Band]@row = \"GM Developments Approval\", \"L2\", IF([Cost Band]@row = \"CFO Co-Sign Required\", \"L3\", \"L4\")))"
+  },
+  "Contract Register": {
+    "Supplier Name": "=IFERROR(INDEX({SuppR Trading Name}, MATCH([Supplier ID]@row, {SuppR Supplier ID}, 0)), \"\")",
+    "Variations to Date (NZD)": "=SUMIFS({VL Cost Impact}, {VL Linked Contract}, [Contract ID]@row, {VL Final Approval Status}, \"Approved\")",
+    "Current Contract Value (NZD)": "=[Contract Value (NZD)]@row + [Variations to Date (NZD)]@row",
+    "Supplier Insurance Status": "=IFERROR(INDEX({SuppR Insurance Status}, MATCH([Supplier ID]@row, {SuppR Supplier ID}, 0)), \"\")"
+  },
+  "Sales Register": {
+    "Building Reference": "=IFERROR(INDEX({Unit Register Building Reference}, MATCH([Unit Number]@row, {107 - Unit Register Range 1}, 0)), \"\")",
+    "Stage": "=IFERROR(INDEX({Unit Register Stage}, MATCH([Unit Number]@row, {107 - Unit Register Range 1}, 0)), \"\")",
+    "Typology": "=IFERROR(INDEX({Unit Register Typology}, MATCH([Unit Number]@row, {107 - Unit Register Range 1}, 0)), \"\")",
+    "Build Status": "=IFERROR(INDEX({107 Construction Status}, MATCH([Building Reference]@row, {107 CR Building Reference}, 0)), \"\")",
+    "Budget Sale Price (incl GST)": "=IFERROR(INDEX({Typology Sale Budget Value}, MATCH(Typology@row, {Typology Budget Names}, 0)), \"\")",
+    "Sale Price Variance (incl GST)": "=IF(OR(ISBLANK([List or Sold Price (incl GST)]@row), ISBLANK([Budget Sale Price (incl GST)]@row)), \"\", [List or Sold Price (incl GST)]@row - [Budget Sale Price (incl GST)]@row)",
+    "Sale Variance Flag": "=IF(OR(ISBLANK([Sale Price Variance (incl GST)]@row), [Sale Price Variance (incl GST)]@row = \"\"), \"\", IF([Sale Price Variance (incl GST)]@row > 0, \"Up\", IF([Sale Price Variance (incl GST)]@row < 0, \"Down\", \"Unchanged\")))"
+  },
+  "Risk Register": {
+    "Village": "=\"107\"",
+    "RAG": "=IF(Score@row = \"\", \"Gray\", IF(Score@row >= 15, \"Red\", IF(Score@row >= 8, \"Yellow\", \"Green\")))",
+    "Score": "=Likelihood@row * Consequence@row"
+  },
+  "Decision Log": {
+    "Village": "=\"107\""
+  },
+  "Monthly RAG Log": {
+    "Is Current Period": "=IF([Period Date]@row = MAX([Period Date]:[Period Date]), 1, 0)"
+  },
+  "H and S Incidents and Observations": {},
+  "H and S Monthly Indicators": {}
+}

@@ -1,5 +1,6 @@
 # Credentials
 config/.env
+smartsheet/input/Smartsheet API.txt
 
 # Python
 .venv/
@@ -32,3 +33,12 @@ outputs/reports/*.xlsx
 *.pptx
 *.ppt
 *.xls
+*.xlsx
+*.pdf
+*.jpg
+*.jpeg
+*.png
+
+# Hand-over packs and raw client uploads (binary-heavy, do not commit)
+plans/Stage 1 Papamoa/extracted/
+reference/fixtures-and-fittings/

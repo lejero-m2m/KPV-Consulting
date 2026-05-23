@@ -1,0 +1,18 @@
+
+========== Village 100 - Regency Park ==========
+Creating workspace: 100 - Regency Park
+  ws_id=3978690771085188
+Creating 7 folders…
+  folders created: [2665635709773700, 1539735802931076, 6043335430301572, 8295135243986820, 976785849509764, 5480385476880260, 2102685756352388]
+Cloning 6 sheets…
+  100 - Unit Register -> 5351643322208132  (in 01 - Project Control)
+  100 - Civil Programme -> 3483843649556356  (in 02 - Civil and Construction)
+  100 - Construction Programme -> 2852960198414212  (in 02 - Civil and Construction)
+  100 - Resource Consent Register -> 3792673272975236  (in 02 - Civil and Construction)
+  100 - RFQ and Quote Register -> 2551176468844420  (in top-level)
+  100 - Variation Log -> 7987443276926852  (in top-level)
+Configuring AUTO_NUMBER on RFQ, Variation Log, Resource Consent Register…
+
+FATAL: HTTP 400 on PUT /sheets/3792673272975236/columns/1279163729481604
+  body: {"type": "TEXT_NUMBER", "systemColumnType": "AUTO_NUMBER", "autoNumberFormat": {"prefix": "100-RC-", "fill": "0000", "suffix": ""}}
+  resp: {"refId":"5dbd3338-e21c-4b28-bb16-fceca6ed7ef2","errorCode":1057,"message":"Primary columns must be of type TEXT_NUMBER."}

@@ -1,0 +1,54 @@
+=== Phase A: workspace + folders ===
+Workspace 103 - Rolleston: 2542728585209732
+  folder 00 - Dashboards: 6775045386200964
+  folder 01 - Project Control: 3960295619094404
+  folder 02 - Sales: 5226933014292356
+  folder 03 - Procurement: 6282464176957316
+  folder 04 - Civil and Construction: 1075177107810180
+  folder 05 - Health and Safety: 3995479991183236
+  folder 06 - Reports: 3291792549406596
+  subfolder 00 - Dashboards / Chart Sources: 1814048921675652
+  subfolder 06 - Reports / Internal: 1673311433320324
+  subfolder 06 - Reports / External: 1136749758965636
+  subfolder 04 - Civil and Construction / Archive: 3951499526072196
+
+=== Phase B: clone 17 sheets from 107 ===
+  Clone OK  103 - Unit Register -> 471418012651396
+  Clone OK  103 - Construction Register -> 877296717090692
+  Clone OK  103 - Civil Programme -> 1541949348597636
+  Clone OK  103 - Construction Programme -> 5380896344461188
+  Clone OK  103 - RFQ and Quote Register -> 3137795450163076
+  Clone OK  103 - Variation Log -> 2877782961901444
+  Clone OK  103 - Contract Register -> 8056162753662852
+  Clone OK  103 - Sales Register -> 8654103268773764
+  Clone OK  103 - Risk Register -> 3425651137662852
+  Clone OK  103 - Decision Log -> 7965766576983940
+  Clone OK  103 - Monthly RAG Log -> 6173841796583300
+  Clone OK  103 - H and S Incidents and Observations -> 491328944164740
+  Clone OK  103 - H and S Monthly Indicators -> 3922041982898052
+  Clone OK  103 - Chart Source - Application Strength -> 647417182506884
+  Clone OK  103 - Chart Source - Construction Progress -> 7929250765033348
+  Clone OK  103 - Chart Source - Sales Pipeline -> 7226817453707140
+  Clone OK  103 - Chart Source - Typology Sales -> 642701308415876
+
+=== AUTO_NUMBER prefix updates ===
+  Auto OK   RFQ and Quote Register :: ID -> 103-RFQ-
+  Auto OK   Variation Log :: Variation ID -> 103-VAR-
+  Auto OK   Contract Register :: Contract ID -> 103-CON-
+  Auto OK   Risk Register :: Risk ID -> 103-RSK-
+  Auto OK   Decision Log :: Decision ID -> 103-DEC-
+  Auto OK   H and S Incidents and Observations :: Entry ID -> 103-HSE-
+
+=== Village formula updates ===
+  Vill OK   Risk Register :: Village -> ="103"
+  Vill OK   Decision Log :: Village -> ="103"
+
+=== Portfolio Register: add 103 row ===
+  (Portfolio Register has no editable 'Village Name' col — skipping)
+  Portfolio Register row added: row_id=1240572914237316
+
+=== SUMMARY ===
+Workspace: 2542728585209732
+Folders: 7 top + 4 subfolders
+Sheets: 17/17
+Errors: 0

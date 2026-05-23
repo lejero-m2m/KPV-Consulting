@@ -1,0 +1,246 @@
+{
+  "104": {
+    "Unit Register": {
+      "sheet": "Unit Register",
+      "rows": 286,
+      "matched": 13,
+      "headers": 39,
+      "unmatched_source": [
+        "Design Status",
+        "Consent Lodged",
+        "Consent Approved",
+        "Building Consent Number",
+        "Days to Approval",
+        "Consent Status",
+        "Construction Status",
+        "Build Partner",
+        "Sales Status",
+        "Expected Settlement Date",
+        "Contract Block",
+        "Contract Package",
+        "Contract Price (incl GST)",
+        "Construction Budget Price (incl GST)",
+        "Construction Budget Variance (incl GST)",
+        "Construction Variance Flag",
+        "Budget Sale Price (incl GST)",
+        "List Price (incl GST)",
+        "Sale Price Variance (incl GST)",
+        "Sale Variance Flag",
+        "CCC Received",
+        "Master Build Certificate",
+        "Beds",
+        "Garage",
+        "Attachment Type",
+        "Floor Area (m\u00b2)"
+      ],
+      "errors": []
+    },
+    "Civil Programme": {
+      "sheet": "Civil Programme",
+      "rows": 26,
+      "matched": 16,
+      "headers": 19,
+      "unmatched_source": [
+        "Sub-Phase",
+        "Budget Variance (incl GST)",
+        "Total Cost (incl GST)"
+      ],
+      "errors": []
+    },
+    "Construction Programme": {
+      "sheet": "Construction Programme",
+      "rows": 0,
+      "matched": 11,
+      "headers": 17,
+      "unmatched_source": [
+        "Task Name",
+        "Is Unit",
+        "Build Partner",
+        "Building Consent Number",
+        "Contract Price (incl GST)",
+        "Variations (incl GST)"
+      ],
+      "errors": [
+        "batch 0-285: HTTP 400: {\"refId\":\"096177cc-e9c6-43be-bfe7-b2ba3fe67124\",\"errorCode\":5536,\"message\":\"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 5430875075678084 did not conform to the strict requirements for type PICKLIST\"}"
+      ]
+    },
+    "Contract Register": {
+      "sheet": "Contract Register",
+      "rows": 0,
+      "matched": 14,
+      "headers": 19,
+      "unmatched_source": [
+        "Contract ID",
+        "Supplier Name",
+        "Variations to Date (NZD)",
+        "Current Contract Value (NZD)",
+        "Documents"
+      ],
+      "errors": [
+        "batch 0-78: HTTP 400: {\"refId\":\"91b44e25-2419-44d4-abe1-f2eda1a0a07c\",\"errorCode\":5536,\"message\":\"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 7771426093567876 did not conform to the strict requirements for type PICKLIST\"}"
+      ]
+    }
+  },
+  "105": {
+    "Unit Register": {
+      "sheet": "Unit Register",
+      "rows": 142,
+      "matched": 13,
+      "headers": 39,
+      "unmatched_source": [
+        "Design Status",
+        "Consent Lodged",
+        "Consent Approved",
+        "Building Consent Number",
+        "Days to Approval",
+        "Consent Status",
+        "Construction Status",
+        "Build Partner",
+        "Sales Status",
+        "Expected Settlement Date",
+        "Contract Block",
+        "Contract Package",
+        "Contract Price (incl GST)",
+        "Construction Budget Price (incl GST)",
+        "Construction Budget Variance (incl GST)",
+        "Construction Variance Flag",
+        "Budget Sale Price (incl GST)",
+        "List Price (incl GST)",
+        "Sale Price Variance (incl GST)",
+        "Sale Variance Flag",
+        "CCC Received",
+        "Master Build Certificate",
+        "Beds",
+        "Garage",
+        "Attachment Type",
+        "Floor Area (m\u00b2)"
+      ],
+      "errors": []
+    },
+    "Civil Programme": {
+      "sheet": "Civil Programme",
+      "rows": 41,
+      "matched": 17,
+      "headers": 19,
+      "unmatched_source": [
+        "Budget Variance (incl GST)",
+        "Total Cost (incl GST)"
+      ],
+      "errors": []
+    },
+    "Construction Programme": {
+      "sheet": "Construction Programme",
+      "rows": 0,
+      "matched": 11,
+      "headers": 17,
+      "unmatched_source": [
+        "Task Name",
+        "Is Unit",
+        "Build Partner",
+        "Building Consent Number",
+        "Contract Price (incl GST)",
+        "Variations (incl GST)"
+      ],
+      "errors": [
+        "batch 0-301: HTTP 400: {\"refId\":\"5b4a8f21-41e7-4176-a24c-c68ef0b8b509\",\"errorCode\":5536,\"message\":\"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 570904831889284 did not conform to the strict requirements for type PICKLIST\"}"
+      ]
+    },
+    "Contract Register": {
+      "sheet": "Contract Register",
+      "rows": 0,
+      "matched": 14,
+      "headers": 19,
+      "unmatched_source": [
+        "Contract ID",
+        "Supplier Name",
+        "Variations to Date (NZD)",
+        "Current Contract Value (NZD)",
+        "Documents"
+      ],
+      "errors": [
+        "batch 0-38: HTTP 400: {\"refId\":\"3d799885-f607-4564-a7d5-19e4b8e08909\",\"errorCode\":5536,\"message\":\"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 32412569735044 did not conform to the strict requirements for type PICKLIST\"}"
+      ]
+    }
+  },
+  "106": {
+    "Unit Register": {
+      "sheet": "Unit Register",
+      "rows": 105,
+      "matched": 13,
+      "headers": 39,
+      "unmatched_source": [
+        "Design Status",
+        "Consent Lodged",
+        "Consent Approved",
+        "Building Consent Number",
+        "Days to Approval",
+        "Consent Status",
+        "Construction Status",
+        "Build Partner",
+        "Sales Status",
+        "Expected Settlement Date",
+        "Contract Block",
+        "Contract Package",
+        "Contract Price (incl GST)",
+        "Construction Budget Price (incl GST)",
+        "Construction Budget Variance (incl GST)",
+        "Construction Variance Flag",
+        "Budget Sale Price (incl GST)",
+        "List Price (incl GST)",
+        "Sale Price Variance (incl GST)",
+        "Sale Variance Flag",
+        "CCC Received",
+        "Master Build Certificate",
+        "Beds",
+        "Garage",
+        "Attachment Type",
+        "Floor Area (m\u00b2)"
+      ],
+      "errors": []
+    },
+    "Civil Programme": {
+      "sheet": "Civil Programme",
+      "rows": 24,
+      "matched": 17,
+      "headers": 19,
+      "unmatched_source": [
+        "Budget Variance (incl GST)",
+        "Total Cost (incl GST)"
+      ],
+      "errors": []
+    },
+    "Construction Programme": {
+      "sheet": "Construction Programme",
+      "rows": 0,
+      "matched": 11,
+      "headers": 17,
+      "unmatched_source": [
+        "Task Name",
+        "Is Unit",
+        "Build Partner",
+        "Building Consent Number",
+        "Contract Price (incl GST)",
+        "Variations (incl GST)"
+      ],
+      "errors": [
+        "batch 0-101: HTTP 400: {\"refId\":\"90587c75-a83c-4b17-bc4a-456f54aabd04\",\"errorCode\":5536,\"message\":\"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 3516453533028228 did not conform to the strict requirements for type PICKLIST\"}"
+      ]
+    },
+    "Contract Register": {
+      "sheet": "Contract Register",
+      "rows": 0,
+      "matched": 14,
+      "headers": 19,
+      "unmatched_source": [
+        "Contract ID",
+        "Supplier Name",
+        "Variations to Date (NZD)",
+        "Current Contract Value (NZD)",
+        "Documents"
+      ],
+      "errors": [
+        "batch 0-24: HTTP 400: {\"refId\":\"b50c7e48-0f5e-4275-9a90-d26ac0cad6b2\",\"errorCode\":5536,\"message\":\"CELL_VALUE_FAILS_VALIDATION: The value for cell in column 7130299145424772 did not conform to the strict requirements for type PICKLIST\"}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+
+========== V100 — finishing from RC step ==========
+  RC AUTO_NUMBER: 100-RC-0001 (formula on primary + Auto# helper col)
+  Unit Register cols: ABY=5494973704474500 YOR=3240974867533700
+Populating 100 unit rows…
+    batch 1: +50 (total 50)
+    batch 2: +38 (total 88)
+V100 complete: 88 rows inserted, 22 refurb tagged.
+
+========== V101 - Kempton Park ==========
+Creating workspace: 101 - Kempton Park
+  ws_id=1304678492333956
+  folders: [8765726220674948, 6936138872055684, 5810238965213060, 3558439151527812, 743689384421252, 1869589291263876, 8624988732319620]
+  101 - Unit Register -> 4525476298051460 (01 - Project Control)
+  101 - Civil Programme -> 219475231068036 (02 - Civil and Construction)
+  101 - Construction Programme -> 143806497247108 (02 - Civil and Construction)
+  101 - Resource Consent Register -> 6725525513916292 (02 - Civil and Construction)
+  101 - RFQ and Quote Register -> 5864056542941060 (top)
+  101 - Variation Log -> 1657090979352452 (top)
+AUTO_NUMBER…
+  {'RFQ': '101-RFQ-0001', 'VAR': '101-VAR-0001', 'RC': '101-RC-0001 (formula on primary + Auto# helper col)'}
+  Unit Register cols: ABY=4367149652283268 YOR=8870955438083972
+Populating 101 unit rows…
+    batch 1: +50 (total 50)
+    batch 2: +6 (total 56)
+V101 complete: 56 rows inserted.
+
+========== V102 - Roseland Park ==========
+Creating workspace: 102 - Roseland Park
+  ws_id=8060077933389700
+  folders: [4895445290903428, 7147245104588676, 1517745570375556, 3769545384060804, 8273145011431300, 5458395244324740, 3206595430639492]
+  102 - Unit Register -> 2733819953106820 (01 - Project Control)
+  102 - Civil Programme -> 8482459732627332 (02 - Civil and Construction)
+  102 - Construction Programme -> 1269706404089732 (02 - Civil and Construction)
+  102 - Resource Consent Register -> 6298593416662916 (02 - Civil and Construction)
+  102 - RFQ and Quote Register -> 6439373854691204 (top)
+  102 - Variation Log -> 6160690606722948 (top)
+AUTO_NUMBER…
+  {'RFQ': '102-RFQ-0001', 'VAR': '102-VAR-0001', 'RC': '102-RC-0001 (formula on primary + Auto# helper col)'}
+  Unit Register cols: ABY=4579561554874244 YOR=2325562717933444
+Populating 102 unit rows…
+    batch 1: +50 (total 50)
+    batch 2: +6 (total 56)
+V102 complete: 56 rows inserted.
+
+========== V103 — column add + Build Year populate ==========
+  103 cols: ABY=7041076031688580 YOR=5704911705902980
+  XLSX units: 77, existing rows: 77, matched: 77
+    update batch 1: +50
+    update batch 2: +27
+
+DONE. Anomalies: 0
